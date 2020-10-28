@@ -1,0 +1,20 @@
+{
+  "name": "carsi-fx",
+  "version": "1.0.0",
+  "description": "Carsi-fx static web site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "build-prod": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
