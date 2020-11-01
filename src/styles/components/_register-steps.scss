@@ -1,0 +1,110 @@
+.section-register-steps {
+  margin:50px 0;
+
+  .steps-container {
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .step-1 {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: '';
+        width: 300px;
+        height: 3px;
+        background-image: linear-gradient(to left, #5168f2, #69d694);
+        top: 74px;
+        left: 195px;
+      }
+    }
+
+    .step-2 {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: '';
+        width: 300px;
+        height: 3px;
+        background-image: linear-gradient(to left, #e76a96, #5168f2);
+        top: 74px;
+        left: 195px;
+      }
+    }
+
+    .step-card {
+      font-family: $base-font-family;
+      text-align: center;
+      width:25%;
+      padding:20px;
+
+      .step-outer.step-bg-primary {
+        background: lighten($primary, 50%);
+        .step-inner {
+          background: $primary;
+        }
+      }
+
+      .step-outer.step-bg-info {
+        background: lighten($info, 30%);
+        .step-inner {
+          background: $info;
+        }
+      }
+
+      .step-outer.step-bg-secondary {
+        background: lighten($secondary, 30%);
+        .step-inner {
+          background: $secondary;
+        }
+      }
+
+      .step-outer {
+        position: relative;
+        overflow: hidden;
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); 	/* IE 9 */
+        -moz-transform:rotate(45deg); 	/* Firefox */
+        -webkit-transform:rotate(45deg); /* Safari & Chrome */
+        -o-transform:rotate(45deg); 	/* Opera */
+        border-radius: 10px;
+        width:70px;
+        height:70px;
+        margin:20px auto;
+        text-align: center;
+        .step-inner {
+          padding:10px;
+          border-radius: 10px;
+          transform:rotate(0deg);
+          -ms-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -webkit-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          width:45px;
+          height:45px;
+          margin: 12px;
+          .step-num {
+            color:#fff;
+            font-weight: bold;
+            display: block;
+            transform:rotate(-45deg);
+            -ms-transform:rotate(-45deg);
+            -moz-transform:rotate(-45deg);
+            -webkit-transform:rotate(-45deg);
+            -o-transform:rotate(-45deg);
+          }
+        }
+      }
+
+      .step-title {
+        font-weight: bold;
+        font-size:14px;
+      }
+
+    }
+
+  }
+
+}

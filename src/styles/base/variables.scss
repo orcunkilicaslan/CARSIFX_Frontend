@@ -1,2 +1,31 @@
 
-$primary:#EC3A;
+/*
+* File Organisation
+*
+* 1- Color Variables
+* 2- Font Variables
+* 3- Responsive Variables
+*/
+
+// #### Color Variables #####
+
+$primary:#18beb1;
+$secondary:#c14474;
+$info:#5168f2;
+$footer-bg:#242636;
+$footer-bottom:#141522;
+$footer-border-color:#242636;
+$footer-link-color:#828998;
+
+$header-nav-color:#24282b;
+$base-link-color:#24282b;
+$description-text-color:#5b646a;
+$news-body-color:#5b646a;
+$news-border-color:#ebebed;
+$mobile-platform-bg:#f8f9fd;
+
+// #### Font Variables #####
+
+$base-font-family:'Roboto', sans-serif;
+$base-font-size:16px;
+$base-line-height:1.5px;
