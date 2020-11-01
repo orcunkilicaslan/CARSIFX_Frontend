@@ -1,0 +1,199 @@
+.content-slider {
+  font-family: $base-font-family;
+  margin: 100px 0;
+
+  .slider-content {
+    width:45%;
+    .section-title {
+      h2 { font-size:35px; font-weight: 700; }
+      p { margin-top:30px; }
+
+      .btn-start-now {
+        font-family: $base-font-family;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.section-boxes {
+  font-family:$base-font-family;
+  margin-top:200px;
+  .icon-boxes {
+    margin: 10px 0;
+  }
+  .icon-box {
+    text-align: center;
+    font-fmaily:$base-font-family;
+    .icon {
+      margin:15px 0;
+    }
+    .title {
+      color:$header-nav-color;
+      font-weight: 700;
+    }
+    .description {
+      margin-top:10px;
+      color:$description-text-color;
+    }
+  }
+}
+
+.section-platforms {
+  margin:100px 0;
+  .platform-buttons {
+    a {
+      font-family:$base-font-family;
+      font-size:16px;
+      font-weight: normal;
+      width:30%;
+    }
+  }
+}
+
+.section-investment-tools {
+  margin:100px 0;
+  .content-card {
+    font-family: $base-font-family;
+    box-shadow: 0 0 20px 0 rgba(212, 215, 221, 0.74);
+    padding:20px;
+
+    .header {
+
+      img {
+        width:74px;
+        height:74px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-family:$base-font-family;
+        font-weight: bold;
+        font-size:20px;
+      }
+
+    }
+
+    .body {
+      margin-top:15px;
+      font-size:14px;
+      color:$description-text-color;
+    }
+
+    .footer {
+      margin-top:20px;
+    }
+  }
+}
+
+.section-why-us {
+  margin-top: 250px;
+  position: relative;
+  .why-carsi-fx-bg img {
+    position: absolute;
+    left:-420px;
+    top: -160px;
+    z-index: -1;
+  }
+
+}
+
+.section-news {
+  font-family: $base-font-family;
+  margin-top:490px;
+  margin-bottom: 30px;
+  .news-container {
+    margin-top:20px;
+  }
+
+
+  // featured news styles
+
+  .news-card.news-featured {
+    border:none;
+    margin-bottom: 50px;
+    .news-title {
+      font-size:30px;
+      font-weight: bold;
+      margin-bottom:20px;
+    }
+    .news-body {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .btn-detail {
+      width:20%;
+    }
+  }
+
+  // regular styles for normal news
+
+  .news-card {
+    margin:20px 0;
+    border-bottom: 1px solid $news-border-color;
+    padding-bottom: 20px;
+    .news-title {
+      font-size:18px;
+      font-weight: bold;
+    }
+    .body {
+      color:$news-body-color;
+      text-align: justify;
+    }
+    .details {
+      margin-top:5px;
+      a, span {
+        display:inline-block;
+        width:49%;
+      }
+      a {
+        text-align: right;
+      }
+    }
+  }
+
+}
+
+.section-mobile-actions {
+  margin:50px 0;
+
+  .carsifx-mobile-img {
+    position: absolute;
+    bottom:-122px;
+  }
+
+  .mobile-platform-box.box-gray {
+    background:$mobile-platform-bg;
+  }
+
+  .mobile-platform-box {
+    padding:20px;
+    font-family:$base-font-family;
+    width:49%;
+    display:inline-block;
+
+    .platform-icon, .platform-name {
+      display:block;
+    }
+
+    .platform-name {
+      margin:20px 0;
+      color:$base-link-color;
+      font-weight: bold;
+    }
+
+    .platform-description {
+      font-size:16px;
+      color:$description-text-color;
+    }
+
+    .btn-download {
+      margin-top:10px;
+      width:70%;
+    }
+
+
+
+  }
+}
