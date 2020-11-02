@@ -5,6 +5,11 @@
 * 2- Font Variables
 * 3- Responsive Variables
 */
+/**
+* ----------------------------
+*    Responsive Variables   *
+* ----------------------------
+ */
 @font-face {
   font-family: 'Roboto';
   src: url("roboto/Roboto-Black.woff2") format("woff2"), url("roboto/Roboto-Black.woff") format("woff");
@@ -161,6 +166,34 @@ footer {
   footer .bar {
     background: #18beb1;
     height: 87px; }
+  footer .footer-bottom {
+    padding: 20px;
+    background: #141522; }
+    footer .footer-bottom .contact-info {
+      font-family: "Roboto", sans-serif;
+      fonts-size: 12px;
+      margin-top: 10px;
+      color: #828998; }
+      footer .footer-bottom .contact-info li {
+        display: inline-block;
+        padding: 0 5px;
+        font-size: 12px; }
+      footer .footer-bottom .contact-info .text {
+        display: inline-block;
+        margin-top: -10px; }
+      footer .footer-bottom .contact-info .icon-separator {
+        display: inline-block;
+        width: 50px;
+        border-right: 1px solid #828998;
+        margin-right: 10px;
+        text-align: center; }
+      footer .footer-bottom .contact-info .contact-icon {
+        font-size: 18px;
+        color: #18beb1; }
+    footer .footer-bottom .social-links a {
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 25px; }
 
 .section-register-steps {
   margin: 50px 0; }
@@ -356,7 +389,7 @@ footer {
   margin: 50px 0; }
   .section-mobile-actions .carsifx-mobile-img {
     position: absolute;
-    bottom: -122px; }
+    z-index: -1; }
   .section-mobile-actions .mobile-platform-box.box-gray {
     background: #f8f9fd; }
   .section-mobile-actions .mobile-platform-box {
