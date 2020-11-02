@@ -160,7 +160,7 @@
 
   .carsifx-mobile-img {
     position: absolute;
-    bottom:-122px;
+    z-index: -1;
   }
 
   .mobile-platform-box.box-gray {
