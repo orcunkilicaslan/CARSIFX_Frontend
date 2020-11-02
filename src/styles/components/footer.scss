@@ -66,4 +66,49 @@ footer {
     height:87px;
   }
 
+  .footer-bottom {
+    padding:20px;
+    background: $footer-bottom;
+
+    .contact-info {
+      font-family: $base-font-family;
+      fonts-size:12px;
+      margin-top:10px;
+      color:$footer-link-color;
+
+      li {
+        display: inline-block;
+        padding:0 5px;
+        font-size:12px;
+      }
+
+      .text {
+        display:inline-block;
+        margin-top:-10px;
+      }
+
+      .icon-separator {
+        display:inline-block;
+        width:50px;
+        border-right:1px solid $footer-link-color;
+        margin-right: 10px;
+        text-align: center;
+      }
+
+      .contact-icon {
+        font-size:18px;
+        color:$primary;
+      }
+    }
+
+    .social-links {
+      a {
+        display:inline-block;
+        padding:0 20px;
+        font-size:25px;
+      }
+    }
+
+  }
+
 }
