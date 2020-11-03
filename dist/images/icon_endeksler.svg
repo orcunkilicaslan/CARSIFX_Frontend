@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon" transform="translate(-1319.877 -491.85)">
+        <g id="icon_bg" transform="translate(1319.877 491.85)">
+            <path id="Rectangle_1739" fill="#5168f2" d="M0 0H74V74H0z"/>
+        </g>
+        <g id="Group_8368" transform="translate(1326.789 504.987)">
+            <path id="Line_125" d="M0 0L43.982 0" class="cls-2" transform="translate(6.145)"/>
+            <path id="Line_126" d="M43.982 0L0 0" class="cls-2" transform="translate(6.145 4.502)"/>
+            <path id="Path_13003" d="M1748.763 1131.725h-3.894a2.251 2.251 0 0 0-2.25 2.251 2.251 2.251 0 0 0 2.25 2.251h1.659" class="cls-2" transform="translate(-1742.619 -1131.725)"/>
+            <path id="Path_13004" d="M1858.212 1131.725h3.894a2.251 2.251 0 0 1 2.251 2.251 2.251 2.251 0 0 1-2.251 2.251h-1.658" class="cls-2" transform="translate(-1808.085 -1131.725)"/>
+            <path id="Path_13005" d="M1800.771 1142.106v34.129h-43.982v-34.129" class="cls-2" transform="translate(-1750.644 -1137.604)"/>
+            <path id="Path_13006" d="M1806.906 1232.145a1.939 1.939 0 1 0-1.939 1.939 1.939 1.939 0 0 0 1.939-1.939z" class="cls-2" transform="translate(-1776.831 -1187.5)"/>
+            <path id="Line_127" d="M0 4.076L0 0" class="cls-2" transform="translate(28.136 38.631)"/>
+            <g id="Group_8368-2" transform="translate(12.258 9.787)">
+                <path id="Rectangle_1762" d="M0 0H3.468V15.756H0z" class="cls-3" transform="translate(0 5.734)"/>
+                <path id="Rectangle_1763" d="M0 0H3.468V8.517H0z" class="cls-3" transform="translate(9.429 12.974)"/>
+                <path id="Rectangle_1764" d="M0 0H3.468V15.756H0z" class="cls-3" transform="translate(18.859 5.734)"/>
+                <path id="Rectangle_1765" d="M0 0H3.468V9.734H0z" class="cls-3" transform="translate(28.288 11.757)"/>
+                <path id="Path_13007" d="M1774.884 1154.293l9.43 7.24 9.429-7.24 9.429 6.023" class="cls-2" transform="translate(-1773.15 -1154.293)"/>
+            </g>
+        </g>
+    </g>
+</svg>
