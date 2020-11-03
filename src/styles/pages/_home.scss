@@ -1,24 +1,43 @@
 .content-slider {
+  position: relative;
   font-family: $base-font-family;
   margin: 100px 0;
 
   .slider-content {
-    width:45%;
+    position:relative;
+    width:43%;
     .section-title {
       h2 { font-size:35px; font-weight: 700; }
-      p { margin-top:30px; }
+      p { margin-top:20px; }
 
       .btn-start-now {
         font-family: $base-font-family;
         font-weight: normal;
       }
     }
+
   }
+
+  .slider-image {
+    position: absolute;
+    width:1210px;
+    height:683px;
+    top: -240px;
+    z-index: -1;
+    right: 40px;
+  }
+
 }
 
 .section-boxes {
   font-family:$base-font-family;
-  margin-top:200px;
+  margin-top:250px;
+
+  .section-title {
+    width: 70%;
+    margin:0 auto;
+  }
+
   .icon-boxes {
     margin: 10px 0;
   }
@@ -40,13 +59,14 @@
 }
 
 .section-platforms {
-  margin:100px 0;
+  margin:150px 0;
   .platform-buttons {
     a {
       font-family:$base-font-family;
       font-size:16px;
       font-weight: normal;
       width:30%;
+      margin-right:10px;
     }
   }
 }
@@ -57,6 +77,7 @@
     font-family: $base-font-family;
     box-shadow: 0 0 20px 0 rgba(212, 215, 221, 0.74);
     padding:20px;
+    height:390px;
 
     .header {
 
@@ -75,9 +96,11 @@
     }
 
     .body {
+      height:210px;
       margin-top:15px;
       font-size:14px;
       color:$description-text-color;
+      font-weight: normal;
     }
 
     .footer {
@@ -91,17 +114,27 @@
   position: relative;
   .why-carsi-fx-bg img {
     position: absolute;
-    left:-420px;
-    top: -160px;
+    left:-760px;
+    top: -120px;
     z-index: -1;
+  }
+
+  .btn-why-us {
+    width:$base-button-width;
   }
 
 }
 
 .section-news {
   font-family: $base-font-family;
-  margin-top:490px;
+  margin-top:320px;
   margin-bottom: 30px;
+
+  .section-title {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .news-container {
     margin-top:20px;
   }
@@ -123,7 +156,7 @@
     }
 
     .btn-detail {
-      width:20%;
+      width:$base-button-width;
     }
   }
 
@@ -177,6 +210,10 @@
       display:block;
     }
 
+    .platform-icon {
+      font-size:45px;
+    }
+
     .platform-name {
       margin:20px 0;
       color:$base-link-color;
@@ -190,7 +227,8 @@
 
     .btn-download {
       margin-top:10px;
-      width:70%;
+      width:180px;
+      text-align: center;
     }
 
 
