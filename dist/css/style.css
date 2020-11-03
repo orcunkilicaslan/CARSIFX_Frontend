@@ -4,10 +4,26 @@
 * 1- Color Variables
 * 2- Font Variables
 * 3- Responsive Variables
+* 4- Project Specific Variables
 */
 /**
 * ----------------------------
+*    Color Variables   *
+* ----------------------------
+ */
+/**
+* ----------------------------
+*    Font Variables   *
+* ----------------------------
+ */
+/**
+* ----------------------------
 *    Responsive Variables   *
+* ----------------------------
+ */
+/**
+* ----------------------------
+*    Project Specific Variables   *
 * ----------------------------
  */
 @font-face {
@@ -104,7 +120,7 @@ header {
       color: #24282b;
       font-family: "Roboto", sans-serif;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: normal;
       display: inline-block;
       padding: 0 20px; }
   header .header-image {
@@ -116,6 +132,9 @@ header {
     z-index: -1;
     background: center center;
     object-fit: contain; }
+  header .login-register-menu a {
+    width: 140px;
+    margin-left: 10px; }
 
 .section-title {
   font-family: "Roboto", sans-serif; }
@@ -138,11 +157,13 @@ footer {
       border-bottom: 1px solid #828998; }
       footer .main-footer .footer-blocks .footer-block.img-block {
         width: 30%;
-        padding: 0;
+        padding-top: 70px;
+        padding-left: 0;
+        height: 170px;
         border-right: 1px solid #828998; }
       footer .main-footer .footer-blocks .footer-block {
         padding: 20px;
-        width: 16%; }
+        width: 20%; }
         footer .main-footer .footer-blocks .footer-block .block-title {
           color: #fff;
           font-size: 16px;
@@ -156,6 +177,9 @@ footer {
         footer .main-footer .footer-blocks .footer-block .links a {
           color: #828998;
           font-size: 14px; }
+        footer .main-footer .footer-blocks .footer-block:last-child {
+          padding-right: 0;
+          margin-right: -60px; }
     footer .main-footer .risk-warning-box {
       font-family: "Roboto", sans-serif;
       font-size: 12px;
@@ -196,7 +220,7 @@ footer {
       font-size: 25px; }
 
 .section-register-steps {
-  margin: 50px 0; }
+  margin: 170px 0; }
   .section-register-steps .steps-container {
     display: flex;
     flex-direction: row;
@@ -251,14 +275,14 @@ footer {
         /* Safari & Chrome */
         -o-transform: rotate(45deg);
         /* Opera */
-        border-radius: 10px;
+        border-radius: 20px;
         width: 70px;
         height: 70px;
         margin: 20px auto;
         text-align: center; }
         .section-register-steps .steps-container .step-card .step-outer .step-inner {
           padding: 10px;
-          border-radius: 10px;
+          border-radius: 13px;
           transform: rotate(0deg);
           -ms-transform: rotate(0deg);
           -moz-transform: rotate(0deg);
@@ -269,34 +293,52 @@ footer {
           margin: 12px; }
           .section-register-steps .steps-container .step-card .step-outer .step-inner .step-num {
             color: #fff;
-            font-weight: bold;
+            font-weight: lighter;
+            font-size: 25px;
             display: block;
             transform: rotate(-45deg);
             -ms-transform: rotate(-45deg);
             -moz-transform: rotate(-45deg);
             -webkit-transform: rotate(-45deg);
-            -o-transform: rotate(-45deg); }
+            -o-transform: rotate(-45deg);
+            margin: -5px; }
       .section-register-steps .steps-container .step-card .step-title {
         font-weight: bold;
         font-size: 14px; }
+      .section-register-steps .steps-container .step-card .description {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 15px; }
 
 .content-slider {
+  position: relative;
   font-family: "Roboto", sans-serif;
   margin: 100px 0; }
   .content-slider .slider-content {
-    width: 45%; }
+    position: relative;
+    width: 43%; }
     .content-slider .slider-content .section-title h2 {
       font-size: 35px;
       font-weight: 700; }
     .content-slider .slider-content .section-title p {
-      margin-top: 30px; }
+      margin-top: 20px; }
     .content-slider .slider-content .section-title .btn-start-now {
       font-family: "Roboto", sans-serif;
       font-weight: normal; }
+  .content-slider .slider-image {
+    position: absolute;
+    width: 1210px;
+    height: 683px;
+    top: -240px;
+    z-index: -1;
+    right: 40px; }
 
 .section-boxes {
   font-family: "Roboto", sans-serif;
-  margin-top: 200px; }
+  margin-top: 250px; }
+  .section-boxes .section-title {
+    width: 70%;
+    margin: 0 auto; }
   .section-boxes .icon-boxes {
     margin: 10px 0; }
   .section-boxes .icon-box {
@@ -312,19 +354,21 @@ footer {
       color: #5b646a; }
 
 .section-platforms {
-  margin: 100px 0; }
+  margin: 150px 0; }
   .section-platforms .platform-buttons a {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: normal;
-    width: 30%; }
+    width: 30%;
+    margin-right: 10px; }
 
 .section-investment-tools {
   margin: 100px 0; }
   .section-investment-tools .content-card {
     font-family: "Roboto", sans-serif;
     box-shadow: 0 0 20px 0 rgba(212, 215, 221, 0.74);
-    padding: 20px; }
+    padding: 20px;
+    height: 390px; }
     .section-investment-tools .content-card .header img {
       width: 74px;
       height: 74px;
@@ -334,9 +378,11 @@ footer {
       font-weight: bold;
       font-size: 20px; }
     .section-investment-tools .content-card .body {
+      height: 210px;
       margin-top: 15px;
       font-size: 14px;
-      color: #5b646a; }
+      color: #5b646a;
+      font-weight: normal; }
     .section-investment-tools .content-card .footer {
       margin-top: 20px; }
 
@@ -345,14 +391,19 @@ footer {
   position: relative; }
   .section-why-us .why-carsi-fx-bg img {
     position: absolute;
-    left: -420px;
-    top: -160px;
+    left: -760px;
+    top: -120px;
     z-index: -1; }
+  .section-why-us .btn-why-us {
+    width: 140px; }
 
 .section-news {
   font-family: "Roboto", sans-serif;
-  margin-top: 490px;
+  margin-top: 320px;
   margin-bottom: 30px; }
+  .section-news .section-title {
+    width: 80%;
+    margin: 0 auto; }
   .section-news .news-container {
     margin-top: 20px; }
   .section-news .news-card.news-featured {
@@ -366,7 +417,7 @@ footer {
       margin-bottom: 20px;
       text-align: justify; }
     .section-news .news-card.news-featured .btn-detail {
-      width: 20%; }
+      width: 140px; }
   .section-news .news-card {
     margin: 20px 0;
     border-bottom: 1px solid #ebebed;
@@ -399,6 +450,8 @@ footer {
     display: inline-block; }
     .section-mobile-actions .mobile-platform-box .platform-icon, .section-mobile-actions .mobile-platform-box .platform-name {
       display: block; }
+    .section-mobile-actions .mobile-platform-box .platform-icon {
+      font-size: 45px; }
     .section-mobile-actions .mobile-platform-box .platform-name {
       margin: 20px 0;
       color: #24282b;
@@ -408,7 +461,8 @@ footer {
       color: #5b646a; }
     .section-mobile-actions .mobile-platform-box .btn-download {
       margin-top: 10px;
-      width: 70%; }
+      width: 180px;
+      text-align: center; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)

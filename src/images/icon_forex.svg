@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:none;stroke:#fff;stroke-width:1.5px}.cls-2{stroke-linecap:round}.cls-3{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="icon" transform="translate(-1319.877 -491.85)">
+        <g id="icon_bg" transform="translate(1319.877 491.85)">
+            <path id="Rectangle_1739" fill="#5168f2" d="M0 0H74V74H0z"/>
+        </g>
+        <g id="icon-2">
+            <path id="Path_12989" d="M0 0h43.77" class="cls-2" transform="translate(1334.607 549.969)"/>
+            <circle id="Ellipse_3" cx="3.821" cy="3.821" r="3.821" class="cls-3" transform="rotate(-67.61 1054.027 -747.38)"/>
+            <circle id="Ellipse_4" cx="3.821" cy="3.821" r="3.821" class="cls-3" transform="rotate(-9.25 3841.966 -8274.815)"/>
+            <circle id="Ellipse_5" cx="2.297" cy="2.297" r="2.297" class="cls-3" transform="translate(1361.438 515.964)"/>
+            <path id="Path_60" d="M1198.3 525.138a2.3 2.3 0 1 0-2.3 2.3 2.3 2.3 0 0 0 2.3-2.3z" class="cls-3" transform="translate(138.609 -5.893)"/>
+            <path id="Line_9" d="M0 5.805L9.559 0" class="cls-3" transform="translate(1336.328 511.923)"/>
+            <path id="Line_10" d="M0 0L8.745 5.488" class="cls-3" transform="translate(1352.693 511.46)"/>
+            <path id="Line_11" d="M0 5.219L9.098 0" class="cls-3" transform="translate(1365.756 511.951)"/>
+            <path id="Path_12988" d="M1363.735 525.469v21.157" class="cls-2"/>
+            <path id="Path_12991" d="M1363.735 525.469v21.157" class="cls-2" transform="translate(-29)"/>
+            <path id="Path_12990" d="M1363.735 525.468v27.381" class="cls-2" transform="translate(-15 -6.223)"/>
+            <path id="Path_12992" d="M1363.735 525.468v27.381" class="cls-2" transform="translate(15 -6.223)"/>
+        </g>
+    </g>
+</svg>
