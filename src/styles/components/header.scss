@@ -3,7 +3,7 @@ header {
   font-family:$base-font-family;
   padding:30px 20px;
   .main-menu {
-    margin-left:25px;
+    margin-left:235px;
     a {
       color:$header-nav-color;
       font-family: $base-font-family;
@@ -28,6 +28,10 @@ header {
   .login-register-menu a {
     width:140px;
     margin-left:10px;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
 }
@@ -42,3 +46,48 @@ header {
     margin: 20px 0;
   }
  }
+
+@media only screen and(max-width: $xxx-large) {
+  header {
+    .main-menu {
+
+    }
+  }
+}
+
+@media only screen and(max-width: $xx-large) {
+  body, html { overflow-x: hidden }
+  header {
+    .main-menu {
+      margin-left: 30px;
+    }
+  }
+}
+
+@media only screen and(max-width: $x-large) {
+  header {
+    .main-menu {
+
+    }
+  }
+}
+
+@media only screen and(max-width: $large) {
+  body, html { overflow-x: hidden }
+  header {
+    .main-menu {
+      a {
+        padding:0 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $x-small) {
+  header {
+    .login-register-menu {
+      margin-top: -30px;
+    }
+    .main-menu { display:none; }
+  }
+}
