@@ -1,3 +1,9 @@
+/**
+* ----------------------------
+*   Homepage Related Styles  *
+* ----------------------------
+ */
+
 .content-slider {
   position: relative;
   font-family: $base-font-family;
@@ -22,16 +28,18 @@
     position: absolute;
     width:1210px;
     height:683px;
-    top: -240px;
+    // top: -240px;
+    top: -85%;
     z-index: -1;
-    right: 40px;
+    // right: 40px;
+    right: -13%;
   }
 
 }
 
 .section-boxes {
   font-family:$base-font-family;
-  margin-top:250px;
+  margin-top:350px;
 
   .section-title {
     width: 70%;
@@ -40,21 +48,6 @@
 
   .icon-boxes {
     margin: 10px 0;
-  }
-  .icon-box {
-    text-align: center;
-    font-fmaily:$base-font-family;
-    .icon {
-      margin:15px 0;
-    }
-    .title {
-      color:$header-nav-color;
-      font-weight: 700;
-    }
-    .description {
-      margin-top:10px;
-      color:$description-text-color;
-    }
   }
 }
 
@@ -191,11 +184,6 @@
 .section-mobile-actions {
   margin:50px 0;
 
-  .carsifx-mobile-img {
-    position: absolute;
-    z-index: -1;
-  }
-
   .mobile-platform-box.box-gray {
     background:$mobile-platform-bg;
   }
@@ -234,4 +222,130 @@
 
 
   }
+}
+
+
+/**
+* ----------------------------
+*    Responsive Styles      *
+* ----------------------------
+**/
+
+@media only screen and(max-width: $xxx-large) {
+  .content-slider {
+    .slider-image {
+      top: -80%;
+      right: 0;
+    }
+  }
+}
+
+@media only screen and(max-width: $xx-large) {
+  body, html { overflow-x: hidden }
+  .content-slider {
+    .slider-image {
+      top: -85%;
+      right: -13%;
+    }
+  }
+}
+
+@media only screen and(max-width: $x-large) {
+  body, html { overflow-x: hidden }
+  .content-slider {
+    .slider-image {
+      top: -90%;
+      right: -35%;
+    }
+  }
+}
+
+@media only screen and(max-width: $large) {
+  body, html { overflow-x: hidden }
+  .content-slider {
+    .slider-image {
+      top: -110%;
+      right: -50%;
+    }
+  }
+
+  .section-boxes {
+    margin-top: 220px;
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .content-slider {
+    .slider-content {
+      width:100%;
+      text-align: center;
+      margin-top:50px;
+    }
+    .slider-image {
+      top: -600px;
+      right: 0;
+      left:50%;
+    }
+  }
+
+  .section-boxes {
+    margin-top:-30px;
+  }
+
+  .section-platforms {
+    text-align: center;
+    margin-top:70px;
+    .platform-buttons {
+      margin-bottom: 20px;
+      a { width:40%; }
+    }
+  }
+
+  .section-investment-tools {
+    .content-card {
+      margin-bottom: 30px;
+      .header {
+        text-align: center;
+      }
+    }
+  }
+
+  .section-why-us {
+    margin-top: 170px;
+    text-align: center;
+  }
+
+  .section-news {
+    margin-top: 220px;
+
+    .news-card {
+      .details {
+        a, span {
+          font-size:11px;
+          // border:1px solid red;
+        }
+
+        a { width:40%; }
+        span { width:55%; }
+
+      }
+    }
+
+  }
+
+  .section-mobile-actions {
+
+    text-align: center;
+
+    margin-top: 0;
+
+    .mobile-platform-box {
+      .btn-download {
+        font-size:14px;
+        width:150px;
+      }
+    }
+  }
+
 }
