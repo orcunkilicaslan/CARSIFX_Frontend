@@ -1,6 +1,12 @@
 <footer>
 
-    <div class="bar"></div>
+    <div class="bar">
+        {% if showPhone == true  %}
+        <div class="container">
+            <img src="images/Phone.png" class="img-fluid carsifx-mobile-img" />
+        </div>
+        {% endif %}
+    </div>
 
     <div class="main-footer">
         <div class="container">
@@ -107,7 +113,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-9">
+                <div class="col-lg-9 col-xs-12">
 
                     <ul class="list-unstyled list-inline contact-info">
                         <li>
@@ -134,7 +140,7 @@
                     </ul>
 
                 </div>
-                <div class="col-3 text-right">
+                <div class="col-lg-3 text-right col-xs-12">
 
                     <div class="social-links">
                         <a href="javascript:;">
