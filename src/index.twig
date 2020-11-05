@@ -1,15 +1,6 @@
-{% set pageTitle = 'CarsiFX - Home' %}
+{% extends "layouts/base.twig" %}
 
-<!DOCTYPE html>
-<html>
-<head>
-    {% include "./layouts/head.twig" %}
-</head>
-<body>
-
-<!-- include header --->
-{% include "./layouts/header.twig" %}
-<!-- end header --->
+{% block page_content %}
 
 <section class="content-slider">
     <div class="container">
@@ -256,7 +247,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <img src="images/News_image.png" />
+                <img src="images/News_image.png" class="img-fluid" />
             </div>
         </div>
 
@@ -431,18 +422,14 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <img src="images/Phone.png" class="img-fluid carsifx-mobile-img" />
-            </div>
         </div>
     </div>
 </section>
 
-<!-- include footer -->
+    <!-- include footer -->
 
-{% include "layouts/footer.twig" %}
+    {% include "./layouts/footer.twig" %}
 
-<!-- include footer -->
+    <!-- include footer -->
 
-</body>
-</html>
+{% endblock %}
