@@ -624,6 +624,31 @@ footer {
       font-size: 14px;
       width: 150px; } }
 
+.page-platforms-block {
+  margin-top: 540px; }
+  .page-platforms-block .platform-block {
+    margin-bottom: 100px; }
+    .page-platforms-block .platform-block .buttons {
+      width: 90%; }
+      .page-platforms-block .platform-block .buttons a {
+        width: 180px;
+        margin-bottom: 10px; }
+
+.page-platforms-account-block {
+  margin-top: 100px; }
+  .page-platforms-account-block .section-title {
+    font-family: "Roboto", sans-serif;
+    margin-top: 120px; }
+  .page-platforms-account-block .account-form {
+    margin-top: 30px; }
+    .page-platforms-account-block .account-form .btn-submit {
+      width: 180px;
+      border-radius: 3px; }
+    .page-platforms-account-block .account-form .input-custom {
+      background: #e5e8e8;
+      border: unset;
+      border-radius: 3px; }
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
