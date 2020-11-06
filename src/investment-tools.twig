@@ -1,0 +1,625 @@
+{% extends "layouts/base.twig" %}
+
+{% block page_content %}
+
+    {% set showPhone = false %}
+
+    <section class="content-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="slider-content">
+
+                        <div class="section-title">
+                            <h2>Yatırım Araçları</h2>
+                            <p>
+                                ÇarşıFX ile yatırımcılar forex piyasası ile birlikte, değerli metaller, tarımsal emtia, petrol ve dünya borsa endekslerinde işlem yapma olanağı bulabilir.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="slider-image" style="background:url('./images/banner_image_1.png') no-repeat;"></div>
+    </section>
+
+    <section class="page-live-currency">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="slider-content">
+                        <div class="section-title text-center">
+                            <h2>Canlı Fiyat Akışı</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-21 col-sm-12 col-xs-12">
+
+
+                    <div class="custom-tabs-container">
+
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="populer-tab" data-toggle="tab" href="#popular">Popüler</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="currency-tab" data-toggle="tab" href="#currency">Döviz</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="metals-tab" data-toggle="tab" href="#metals" >Metaller</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="emtia-tab" data-toggle="tab" href="#emtia">Emtia</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="exchange-tab" data-toggle="tab" href="#exchange">Borsa</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="crypto-tab" data-toggle="tab" href="#crypto" >Kripto</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="popular" role="tabpanel" aria-labelledby="home-tab">
+
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CHF</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">1,06866</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">#ff4040</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">1,06678</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,64461</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="currency" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CHF</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">1,06866</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">#ff4040</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">1,06678</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,64461</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="metals" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CHF</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">1,06866</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">#ff4040</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">1,06678</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,64461</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="emtia" role="tabpanel" aria-labelledby="profile-tab">
+
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="exchange" role="tabpanel" aria-labelledby="contact-tab">
+
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CHF</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">1,06866</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">#ff4040</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">1,06678</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,64461</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CAD</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,64011</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">0,91459</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,90785</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,91747</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="crypto" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="currency-flow-table">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Sembol</th>
+                                            <th>Satış</th>
+                                            <th>Alış</th>
+                                            <th>En Düşük</th>
+                                            <th>En Yüksek</th>
+                                            <th>Spread</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">AUD/CHF</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">1,06866</span>
+                                            </td>
+                                            <td>
+                                                <span class="decrease-value">#ff4040</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">1,06678</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0,64461</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">0</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="page-platforms-account-block">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="account-image">
+                        <img src="images/platform_account_image.png" class="img-fluid" />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="section-title">
+                        <h2>Ücretsiz Üye Olun</h2>
+                    </div>
+
+                    <div class="account-form">
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control input-custom" id="inputEmail4" placeholder="İsim"  />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="password" class="form-control input-custom" placeholder="Soyisim" />
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control input-custom" placeholder="Telefon"  />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="password" class="form-control input-custom" placeholder="Eposta" />
+                            </div>
+                        </div>
+
+                        <div class="form-row mt-3" >
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-submit">Kayıt Ol</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-register-steps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title text-center">
+                        <h2>Çarşı FX ile forex’e kolayca başlangıç yapın</h2>
+                        <p style="width: 80%; margin:20px auto;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 steps-container">
+
+                    <div class="step-card step-1">
+                        <div class="step-outer step-bg-primary">
+                            <div class="step-inner">
+                                <span class="step-num">1</span>
+                            </div>
+                        </div>
+                        <div class="step-title">
+                            Kayıt Formunu Doldurun
+                        </div>
+                        <div class="description">
+                            Hemen üye olun ve Kale ÇarşıFX’i $000 sanal para ile deneyin.
+                        </div>
+                    </div>
+
+                    <div class="step-card step-2">
+                        <div class="step-outer step-bg-info">
+                            <div class="step-inner">
+                                <span class="step-num">2</span>
+                            </div>
+                        </div>
+                        <div class="step-title">
+                            Onay İşlemini Tamamlayın
+                        </div>
+                        <div class="description">
+                            Gerekli dökümanları sisteme yükleyin ve hesabınızı onaylayın.
+                        </div>
+                    </div>
+
+                    <div class="step-card step-3">
+                        <div class="step-outer step-bg-secondary">
+                            <div class="step-inner">
+                                <span class="step-num">3</span>
+                            </div>
+                        </div>
+                        <div class="step-title">
+                            Yatırıma Başla
+                        </div>
+                        <div class="description">
+                            Kale Fx’in zengin yatırım çeşitliliğinde yatırımlarınızı yönetin.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- include footer -->
+
+    {% include "./layouts/footer.twig" %}
+
+    <!-- include footer -->
+
+{% endblock %}

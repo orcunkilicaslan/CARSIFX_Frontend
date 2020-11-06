@@ -110,12 +110,17 @@
   font-style: italic;
   font-display: swap; }
 
+/**
+* ----------------------------
+*    Components
+* ----------------------------
+ */
 header {
   position: relative;
   font-family: "Roboto", sans-serif;
   padding: 30px 20px; }
   header .main-menu {
-    margin-left: 25px; }
+    margin-left: 235px; }
     header .main-menu a {
       color: #24282b;
       font-family: "Roboto", sans-serif;
@@ -134,7 +139,10 @@ header {
     object-fit: contain; }
   header .login-register-menu a {
     width: 140px;
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin-bottom: 10px; }
+    header .login-register-menu a:last-child {
+      margin-bottom: 0; }
 
 .section-title {
   font-family: "Roboto", sans-serif; }
@@ -143,6 +151,24 @@ header {
     font-weight: 700; }
   .section-title p {
     margin: 20px 0; }
+
+@media only screen and (max-width: 1920px) {
+  body, html {
+    overflow-x: hidden; }
+  header .main-menu {
+    margin-left: 30px; } }
+
+@media only screen and (max-width: 1280px) {
+  body, html {
+    overflow-x: hidden; }
+  header .main-menu a {
+    padding: 0 10px; } }
+
+@media only screen and (max-width: 575.98px) {
+  header .login-register-menu {
+    margin-top: -30px; }
+  header .main-menu {
+    display: none; } }
 
 footer {
   margin-top: 10px; }
@@ -155,12 +181,22 @@ footer {
       flex-direction: row;
       flex-wrap: nowrap;
       border-bottom: 1px solid #828998; }
+      @media screen and (max-width: 575.98px) {
+        footer .main-footer .footer-blocks {
+          display: block; } }
       footer .main-footer .footer-blocks .footer-block.img-block {
         width: 30%;
         padding-top: 70px;
         padding-left: 0;
         height: 170px;
         border-right: 1px solid #828998; }
+        @media screen and (max-width: 575.98px) {
+          footer .main-footer .footer-blocks .footer-block.img-block {
+            width: 100%;
+            text-align: center;
+            border-right: unset;
+            border-bottom: 1px solid #828998;
+            margin-bottom: 20px; } }
       footer .main-footer .footer-blocks .footer-block {
         padding: 20px;
         width: 20%; }
@@ -174,12 +210,20 @@ footer {
           background: #18beb1;
           display: block;
           margin-bottom: 10px; }
+          @media screen and (max-width: 575.98px) {
+            footer .main-footer .footer-blocks .footer-block .separator {
+              width: 100%; } }
         footer .main-footer .footer-blocks .footer-block .links a {
           color: #828998;
           font-size: 14px; }
         footer .main-footer .footer-blocks .footer-block:last-child {
           padding-right: 0;
           margin-right: -60px; }
+        @media screen and (max-width: 575.98px) {
+          footer .main-footer .footer-blocks .footer-block {
+            display: block;
+            text-align: center;
+            width: 100%; } }
     footer .main-footer .risk-warning-box {
       font-family: "Roboto", sans-serif;
       font-size: 12px;
@@ -188,9 +232,24 @@ footer {
       footer .main-footer .risk-warning-box .risk-warning {
         font-weight: bold; }
   footer .bar {
+    position: relative;
     background: #18beb1;
-    height: 87px; }
+    z-index: -1;
+    height: 87px;
+    width: 100%; }
+    footer .bar .container {
+      position: relative; }
+    footer .bar .carsifx-mobile-img {
+      position: absolute;
+      z-index: 1;
+      bottom: -370px;
+      right: 0; }
+      @media screen and (max-width: 575.98px) {
+        footer .bar .carsifx-mobile-img {
+          display: none; } }
   footer .footer-bottom {
+    position: relative;
+    z-index: 1;
     padding: 20px;
     background: #141522; }
     footer .footer-bottom .contact-info {
@@ -214,18 +273,33 @@ footer {
       footer .footer-bottom .contact-info .contact-icon {
         font-size: 18px;
         color: #18beb1; }
-    footer .footer-bottom .social-links a {
-      display: inline-block;
-      padding: 0 20px;
-      font-size: 25px; }
+      @media screen and (max-width: 575.98px) {
+        footer .footer-bottom .contact-info {
+          margin: 30px 0; } }
+    footer .footer-bottom .social-links {
+      text-align: right; }
+      footer .footer-bottom .social-links a {
+        display: inline-block;
+        padding: 0 20px;
+        font-size: 25px; }
+      @media screen and (max-width: 575.98px) {
+        footer .footer-bottom .social-links {
+          text-align: center;
+          margin: 30px 0; } }
 
 .section-register-steps {
   margin: 170px 0; }
+  @media screen and (max-width: 575.98px) {
+    .section-register-steps {
+      margin: 120px 0; } }
   .section-register-steps .steps-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between; }
+    @media screen and (max-width: 575.98px) {
+      .section-register-steps .steps-container {
+        display: block; } }
     .section-register-steps .steps-container .step-1 {
       position: relative; }
       .section-register-steps .steps-container .step-1:after {
@@ -236,6 +310,9 @@ footer {
         background-image: linear-gradient(to left, #5168f2, #69d694);
         top: 74px;
         left: 195px; }
+        @media screen and (max-width: 575.98px) {
+          .section-register-steps .steps-container .step-1:after {
+            display: none; } }
     .section-register-steps .steps-container .step-2 {
       position: relative; }
       .section-register-steps .steps-container .step-2:after {
@@ -246,11 +323,17 @@ footer {
         background-image: linear-gradient(to left, #e76a96, #5168f2);
         top: 74px;
         left: 195px; }
+        @media screen and (max-width: 575.98px) {
+          .section-register-steps .steps-container .step-2:after {
+            display: none; } }
     .section-register-steps .steps-container .step-card {
       font-family: "Roboto", sans-serif;
       text-align: center;
       width: 25%;
       padding: 20px; }
+      @media screen and (max-width: 575.98px) {
+        .section-register-steps .steps-container .step-card {
+          width: 100%; } }
       .section-register-steps .steps-container .step-card .step-outer.step-bg-primary {
         background: #dbfaf8; }
         .section-register-steps .steps-container .step-card .step-outer.step-bg-primary .step-inner {
@@ -310,6 +393,41 @@ footer {
         margin: 0 auto;
         font-size: 15px; }
 
+.icon-box {
+  text-align: center;
+  font-fmaily: "Roboto", sans-serif;
+  margin: 30px 0; }
+  .icon-box .icon {
+    margin: 15px 0; }
+  .icon-box .title {
+    color: #24282b;
+    font-weight: 700; }
+  .icon-box .description {
+    margin-top: 10px;
+    color: #5b646a; }
+
+.custom-tabs-container {
+  margin-top: 50px; }
+  .custom-tabs-container .nav-link {
+    color: #3e3b44 !important;
+    font-weight: bold !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px !important;
+    border-left: unset  !important;
+    border-right: unset  !important;
+    border-top: unset !important;
+    border-bottom: 1px solid #18beb1 !important;
+    padding-bottom: 10px; }
+  .custom-tabs-container .nav-link.active {
+    border-bottom: 1px solid #18beb1 !important;
+    color: #18beb1 !important;
+    font-weight: bold !important; }
+
+/**
+* ----------------------------
+*   Homepage Related Styles  *
+* ----------------------------
+ */
 .content-slider {
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -329,29 +447,18 @@ footer {
     position: absolute;
     width: 1210px;
     height: 683px;
-    top: -240px;
+    top: -85%;
     z-index: -1;
-    right: 40px; }
+    right: -13%; }
 
 .section-boxes {
   font-family: "Roboto", sans-serif;
-  margin-top: 250px; }
+  margin-top: 350px; }
   .section-boxes .section-title {
     width: 70%;
     margin: 0 auto; }
   .section-boxes .icon-boxes {
     margin: 10px 0; }
-  .section-boxes .icon-box {
-    text-align: center;
-    font-fmaily: "Roboto", sans-serif; }
-    .section-boxes .icon-box .icon {
-      margin: 15px 0; }
-    .section-boxes .icon-box .title {
-      color: #24282b;
-      font-weight: 700; }
-    .section-boxes .icon-box .description {
-      margin-top: 10px;
-      color: #5b646a; }
 
 .section-platforms {
   margin: 150px 0; }
@@ -438,9 +545,6 @@ footer {
 
 .section-mobile-actions {
   margin: 50px 0; }
-  .section-mobile-actions .carsifx-mobile-img {
-    position: absolute;
-    z-index: -1; }
   .section-mobile-actions .mobile-platform-box.box-gray {
     background: #f8f9fd; }
   .section-mobile-actions .mobile-platform-box {
@@ -463,6 +567,184 @@ footer {
       margin-top: 10px;
       width: 180px;
       text-align: center; }
+
+/**
+* ----------------------------
+*    Responsive Styles      *
+* ----------------------------
+**/
+@media only screen and (max-width: 2560px) {
+  .content-slider .slider-image {
+    top: -220px;
+    right: 0; } }
+
+@media only screen and (max-width: 1920px) {
+  body, html {
+    overflow-x: hidden; }
+  .content-slider .slider-image {
+    top: -85%;
+    right: -13%; } }
+
+@media only screen and (max-width: 1490px) {
+  body, html {
+    overflow-x: hidden; }
+  .content-slider .slider-image {
+    top: -90%;
+    right: -35%; } }
+
+@media only screen and (max-width: 1280px) {
+  body, html {
+    overflow-x: hidden; }
+  .content-slider .slider-image {
+    top: -110%;
+    right: -50%; }
+  .section-boxes {
+    margin-top: 220px; } }
+
+@media only screen and (max-width: 575.98px) {
+  .content-slider .slider-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px; }
+  .content-slider .slider-image {
+    top: -600px;
+    right: 0;
+    left: 50%; }
+  .section-boxes {
+    margin-top: -30px; }
+  .section-platforms {
+    text-align: center;
+    margin-top: 70px; }
+    .section-platforms .platform-buttons {
+      margin-bottom: 20px; }
+      .section-platforms .platform-buttons a {
+        width: 40%; }
+  .section-investment-tools .content-card {
+    margin-bottom: 30px; }
+    .section-investment-tools .content-card .header {
+      text-align: center; }
+  .section-why-us {
+    margin-top: 170px;
+    text-align: center; }
+  .section-news {
+    margin-top: 220px; }
+    .section-news .news-card .details a, .section-news .news-card .details span {
+      font-size: 11px; }
+    .section-news .news-card .details a {
+      width: 40%; }
+    .section-news .news-card .details span {
+      width: 55%; }
+  .section-mobile-actions {
+    text-align: center;
+    margin-top: 0; }
+    .section-mobile-actions .mobile-platform-box .btn-download {
+      font-size: 14px;
+      width: 150px; } }
+
+.page-platforms-block {
+  margin-top: 540px; }
+  .page-platforms-block .platform-block {
+    margin-bottom: 100px; }
+    .page-platforms-block .platform-block .buttons {
+      width: 90%; }
+      .page-platforms-block .platform-block .buttons a {
+        width: 180px;
+        margin-bottom: 10px; }
+
+.page-platform-features .section-title {
+  width: 70%;
+  margin: 0 auto; }
+
+.page-platforms-account-block {
+  margin-top: 100px; }
+  .page-platforms-account-block .section-title {
+    font-family: "Roboto", sans-serif;
+    margin-top: 120px; }
+  .page-platforms-account-block .account-form {
+    margin-top: 30px; }
+    .page-platforms-account-block .account-form .btn-submit {
+      width: 180px;
+      border-radius: 3px; }
+    .page-platforms-account-block .account-form .input-custom {
+      background: #e5e8e8;
+      border: unset;
+      border-radius: 3px; }
+
+.page-live-currency {
+  margin-top: 420px; }
+  .page-live-currency .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-live-currency .currency-flow-table {
+    height: 400px;
+    font-family: "Roboto", sans-serif; }
+    .page-live-currency .currency-flow-table table {
+      width: 100%; }
+      .page-live-currency .currency-flow-table table thead.muted {
+        position: relative;
+        width: 100%; }
+        .page-live-currency .currency-flow-table table thead.muted th {
+          color: #a9b1b1;
+          border: unset;
+          text-align: center;
+          font-weight: normal; }
+      .page-live-currency .currency-flow-table table span.normal-value {
+        color: #3e3b44;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table span.increase-value {
+        color: #18be9e;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table span.decrease-value {
+        color: #ff4040;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table td {
+        border: unset;
+        text-align: center; }
+
+.page-analysis-content {
+  margin-top: 450px; }
+  .page-analysis-content .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-analysis-content .analysis-news-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px; }
+    .page-analysis-content .analysis-news-container .analysis-card {
+      width: 30%;
+      margin-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+      border-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card .card-content {
+        padding: 20px;
+        background: #f5f5f5;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card .category-date {
+        margin: 10px 0; }
+        .page-analysis-content .analysis-news-container .analysis-card .category-date span {
+          display: inline-block;
+          margin-right: 5px; }
+        .page-analysis-content .analysis-news-container .analysis-card .category-date .category {
+          color: #24282b;
+          font-weight: bold;
+          font-size: 16px; }
+      .page-analysis-content .analysis-news-container .analysis-card h3.title {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold; }
+      .page-analysis-content .analysis-news-container .analysis-card .details {
+        color: #5b646a;
+        font-size: 14px;
+        margin: 10px 0; }
+      .page-analysis-content .analysis-news-container .analysis-card a.detail {
+        display: block;
+        color: #000;
+        font-weight: bold; }
+        .page-analysis-content .analysis-news-container .analysis-card a.detail .detail-icon {
+          color: #18beb1; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
