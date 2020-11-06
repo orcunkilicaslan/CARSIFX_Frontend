@@ -1,0 +1,60 @@
+.page-analysis-content {
+
+  margin-top: 450px;
+
+  .section-title {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .analysis-news-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    .analysis-card {
+      width:30%;
+      margin-bottom: 20px;
+      font-family: $base-font-family;
+      border-radius: 12px;
+
+      .card-content {
+        padding:20px;
+        background:#f5f5f5;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
+
+      .category-date {
+        span { display: inline-block; margin-right: 5px; }
+        .category { color:#24282b; font-weight: bold; font-size:16px; }
+        margin:10px 0;
+      }
+
+      h3.title {
+        font-family: $base-font-family;
+        font-size:18px;
+        font-weight: bold;
+      }
+
+      .details {
+        color:#5b646a;
+        font-size:14px;
+        margin:10px 0;
+      }
+
+      a.detail {
+        display: block;
+        color:#000;
+        font-weight: bold;
+        .detail-icon {
+          color:$primary;
+        }
+      }
+    }
+
+  }
+
+}
