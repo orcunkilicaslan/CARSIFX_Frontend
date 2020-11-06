@@ -1,0 +1,17 @@
+.page-about-our-achievements {
+  margin-top: 350px;
+  margin-bottom: 150px;
+
+  .award-box {
+    margin-top: 0;
+    text-align: center;
+
+    img {
+      &:first-child, &:last-child {
+        margin-top: 320px;
+      }
+    }
+
+  }
+
+}
