@@ -745,6 +745,41 @@ footer {
         font-weight: bold; }
         .page-analysis-content .analysis-news-container .analysis-card a.detail .detail-icon {
           color: #18beb1; }
+    .page-analysis-content .analysis-news-container .analysis-card.card-full {
+      width: 100%;
+      border-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .cover {
+        width: 100%; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date {
+        margin-bottom: 10px; }
+        .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date span {
+          font-size: 20px !important; }
+        .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date .date {
+          font-weight: 300; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .card-content {
+        background: unset; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full h3.title {
+        font-size: 35px; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .details {
+        text-align: justify; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .card-content {
+        padding: 20px 0; }
+  .page-analysis-content .similar-news {
+    margin-bottom: 50px; }
+    .page-analysis-content .similar-news .title {
+      font-weight: bold;
+      font-size: 18px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #18beb1; }
+
+.page-about-our-achievements {
+  margin-top: 350px;
+  margin-bottom: 150px; }
+  .page-about-our-achievements .award-box {
+    margin-top: 0;
+    text-align: center; }
+    .page-about-our-achievements .award-box img:first-child, .page-about-our-achievements .award-box img:last-child {
+      margin-top: 320px; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
