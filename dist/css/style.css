@@ -406,6 +406,23 @@ footer {
     margin-top: 10px;
     color: #5b646a; }
 
+.custom-tabs-container {
+  margin-top: 50px; }
+  .custom-tabs-container .nav-link {
+    color: #3e3b44 !important;
+    font-weight: bold !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px !important;
+    border-left: unset  !important;
+    border-right: unset  !important;
+    border-top: unset !important;
+    border-bottom: 1px solid #18beb1 !important;
+    padding-bottom: 10px; }
+  .custom-tabs-container .nav-link.active {
+    border-bottom: 1px solid #18beb1 !important;
+    color: #18beb1 !important;
+    font-weight: bold !important; }
+
 /**
 * ----------------------------
 *   Homepage Related Styles  *
@@ -558,7 +575,7 @@ footer {
 **/
 @media only screen and (max-width: 2560px) {
   .content-slider .slider-image {
-    top: -80%;
+    top: -220px;
     right: 0; } }
 
 @media only screen and (max-width: 1920px) {
@@ -634,6 +651,10 @@ footer {
         width: 180px;
         margin-bottom: 10px; }
 
+.page-platform-features .section-title {
+  width: 70%;
+  margin: 0 auto; }
+
 .page-platforms-account-block {
   margin-top: 100px; }
   .page-platforms-account-block .section-title {
@@ -648,6 +669,82 @@ footer {
       background: #e5e8e8;
       border: unset;
       border-radius: 3px; }
+
+.page-live-currency {
+  margin-top: 420px; }
+  .page-live-currency .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-live-currency .currency-flow-table {
+    height: 400px;
+    font-family: "Roboto", sans-serif; }
+    .page-live-currency .currency-flow-table table {
+      width: 100%; }
+      .page-live-currency .currency-flow-table table thead.muted {
+        position: relative;
+        width: 100%; }
+        .page-live-currency .currency-flow-table table thead.muted th {
+          color: #a9b1b1;
+          border: unset;
+          text-align: center;
+          font-weight: normal; }
+      .page-live-currency .currency-flow-table table span.normal-value {
+        color: #3e3b44;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table span.increase-value {
+        color: #18be9e;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table span.decrease-value {
+        color: #ff4040;
+        font-weight: 600; }
+      .page-live-currency .currency-flow-table table td {
+        border: unset;
+        text-align: center; }
+
+.page-analysis-content {
+  margin-top: 450px; }
+  .page-analysis-content .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-analysis-content .analysis-news-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px; }
+    .page-analysis-content .analysis-news-container .analysis-card {
+      width: 30%;
+      margin-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+      border-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card .card-content {
+        padding: 20px;
+        background: #f5f5f5;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card .category-date {
+        margin: 10px 0; }
+        .page-analysis-content .analysis-news-container .analysis-card .category-date span {
+          display: inline-block;
+          margin-right: 5px; }
+        .page-analysis-content .analysis-news-container .analysis-card .category-date .category {
+          color: #24282b;
+          font-weight: bold;
+          font-size: 16px; }
+      .page-analysis-content .analysis-news-container .analysis-card h3.title {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold; }
+      .page-analysis-content .analysis-news-container .analysis-card .details {
+        color: #5b646a;
+        font-size: 14px;
+        margin: 10px 0; }
+      .page-analysis-content .analysis-news-container .analysis-card a.detail {
+        display: block;
+        color: #000;
+        font-weight: bold; }
+        .page-analysis-content .analysis-news-container .analysis-card a.detail .detail-icon {
+          color: #18beb1; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
