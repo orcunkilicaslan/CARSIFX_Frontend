@@ -1,0 +1,41 @@
+.page-live-currency {
+
+  margin-top:420px;
+
+  .section-title {
+    width: 70%;
+    margin:0 auto;
+  }
+
+  .currency-flow-table {
+    height:400px;
+    font-family: $base-font-family;
+
+    table {
+      width:100%;
+
+
+      thead.muted {
+        position: relative;
+        width: 100%;
+        th {
+          color:#a9b1b1; border:unset;
+          text-align: center;
+          font-weight: normal;
+        }
+      }
+
+      span.normal-value   { color:$investment-normal-value;   font-weight: 600; }
+      span.increase-value { color:$investment-increase-value; font-weight: 600; }
+      span.decrease-value { color:$investment-decrease-value; font-weight: 600; }
+
+      td {
+        border: unset;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+}
