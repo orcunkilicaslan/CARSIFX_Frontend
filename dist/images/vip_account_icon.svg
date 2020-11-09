@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1786" d="M0 0H63.302V65.371H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon" transform="translate(-505 -943)">
+        <g id="Group_8389" transform="translate(523 960)">
+            <g id="Group_8388" clip-path="url(#clip-path)">
+                <path id="Path_13069" d="M14.981 60.789h-6.2V30.033l.119-4.162a3.751 3.751 0 0 0 2.7-3.6 3.83 3.83 0 0 0-7.659 0 4 4 0 0 0 2.7 3.717v34.801H1.126a1.126 1.126 0 1 0 0 2.253h13.855a1.126 1.126 0 1 0 0-2.253" class="cls-1" transform="translate(0 2.331)"/>
+                <path id="Path_13070" d="M57.106 60.575h-5.182V25.883a4.027 4.027 0 1 0-2.253-.113l-.224 4.393v30.412h-6.42a1.126 1.126 0 1 0 0 2.253h13.854a1.065 1.065 0 0 0 1.126-1.128c0-.676-.338-1.126-.9-1.126" class="cls-1" transform="translate(5.295 2.318)"/>
+                <path id="Path_13071" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2px" d="M7.9 25.05s6.848 13.88 22.865 13.88 23.2-13.993 23.2-13.993" transform="translate(.998 3.152)"/>
+                <path id="Path_13072" d="M20.672 31.642l9.012-4.735a.829.829 0 0 1 .766 0l9 4.734a.823.823 0 0 0 1.194-.867l-1.718-10.028a.818.818 0 0 1 .237-.728l7.293-7.106a.823.823 0 0 0-.456-1.4l-10.076-1.47a.822.822 0 0 1-.62-.451L30.8.458a.822.822 0 0 0-1.474 0l-4.508 9.134a.823.823 0 0 1-.62.449l-10.066 1.467a.822.822 0 0 0-.456 1.4l7.284 7.107a.821.821 0 0 1 .237.728l-1.719 10.032a.823.823 0 0 0 1.194.867" class="cls-1" transform="translate(1.697 .001)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -55,6 +55,39 @@
       }
     }
 
+    .analysis-card.card-full {
+      width:100%;
+
+      border-radius: 12px;
+      .cover {
+        width:100%;
+      }
+
+      .category-date {
+        span {font-size:20px !important;}
+        .date { font-weight: 300; }
+        margin-bottom: 10px;
+      }
+      .card-content {background: unset }
+      h3.title { font-size:35px; }
+      .details { text-align: justify }
+
+      .card-content {
+        padding:20px 0;
+      }
+
+    }
+
+  }
+
+  .similar-news {
+    margin-bottom: 50px;
+    .title {
+      font-weight: bold;
+      font-size:18px;
+      padding-bottom:20px;
+      border-bottom: 1px solid $primary;
+    }
   }
 
 }

@@ -745,6 +745,96 @@ footer {
         font-weight: bold; }
         .page-analysis-content .analysis-news-container .analysis-card a.detail .detail-icon {
           color: #18beb1; }
+    .page-analysis-content .analysis-news-container .analysis-card.card-full {
+      width: 100%;
+      border-radius: 12px; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .cover {
+        width: 100%; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date {
+        margin-bottom: 10px; }
+        .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date span {
+          font-size: 20px !important; }
+        .page-analysis-content .analysis-news-container .analysis-card.card-full .category-date .date {
+          font-weight: 300; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .card-content {
+        background: unset; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full h3.title {
+        font-size: 35px; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .details {
+        text-align: justify; }
+      .page-analysis-content .analysis-news-container .analysis-card.card-full .card-content {
+        padding: 20px 0; }
+  .page-analysis-content .similar-news {
+    margin-bottom: 50px; }
+    .page-analysis-content .similar-news .title {
+      font-weight: bold;
+      font-size: 18px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #18beb1; }
+
+.page-about-our-achievements {
+  margin-top: 350px;
+  margin-bottom: 150px; }
+  .page-about-our-achievements .award-box {
+    margin-top: 0;
+    text-align: center; }
+    .page-about-our-achievements .award-box img:first-child, .page-about-our-achievements .award-box img:last-child {
+      margin-top: 320px; }
+
+.page-account-types {
+  margin-top: 390px; }
+  .page-account-types .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-account-types .account-type-card {
+    margin-top: 50px;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #eaeaeb; }
+    .page-account-types .account-type-card .account-card-header {
+      padding: 30px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      text-align: center; }
+      .page-account-types .account-type-card .account-card-header h3 {
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff; }
+    .page-account-types .account-type-card .account-card-body {
+      background: #f5f5f5;
+      padding: 30px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; }
+      .page-account-types .account-type-card .account-card-body .description {
+        margin-bottom: 20px;
+        color: #5b646a;
+        font-size: 16px; }
+      .page-account-types .account-type-card .account-card-body .features .feature-icon {
+        margin-right: 15px; }
+      .page-account-types .account-type-card .account-card-body .account-card-footer {
+        text-align: center;
+        margin-top: 30px; }
+        .page-account-types .account-type-card .account-card-body .account-card-footer a {
+          width: 70%; }
+  .page-account-types .account-type-card.card-primary .account-card-header {
+    background: #18beb1; }
+  .page-account-types .account-type-card.card-primary .feature-icon {
+    color: #18beb1; }
+  .page-account-types .account-type-card.card-premium .account-card-header {
+    background: #5168f2; }
+  .page-account-types .account-type-card.card-premium .feature-icon {
+    color: #5168f2; }
+  .page-account-types .account-type-card.card-premium .btn-primary {
+    background: #5168f2;
+    border: 1px solid #5168f2; }
+  .page-account-types .account-type-card.card-vip .account-card-header {
+    background: #24282b; }
+  .page-account-types .account-type-card.card-vip .feature-icon {
+    color: #24282b; }
+  .page-account-types .account-type-card.card-vip .btn-primary {
+    background: #24282b;
+    border: 1px solid #24282b; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
