@@ -1,0 +1,76 @@
+.page-account-types {
+  margin-top:390px;
+  .section-title {
+    width: 70%;
+    margin:0 auto;
+  }
+
+  .account-type-card {
+    margin-top:50px;
+    border-radius: 15px;
+    font-family: $base-font-family;
+    border:1px solid $account-card-border;
+
+    .account-card-header {
+      padding:30px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      text-align: center;
+      h3 {
+        margin-top:10px;
+        font-size:30px;
+        font-weight: bold;
+        color:#fff;
+      }
+    }
+
+    .account-card-body {
+      background: $account-card-body;
+      padding:30px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+
+      .description {
+        margin-bottom: 20px;
+        color:$account-card-body-text;
+        font-size:16px;
+      }
+
+      .features {
+        .feature-icon { margin-right:15px; }
+      }
+
+      .account-card-footer {
+        text-align: center;
+        margin-top: 30px;
+        a { width: 70% }
+      }
+
+    }
+
+  }
+
+  .account-type-card.card-primary {
+    .account-card-header {
+      background: $account-card-primary;
+    }
+    .feature-icon { color:$account-card-primary; }
+  }
+
+  .account-type-card.card-premium {
+    .account-card-header {
+      background: $account-card-premium;
+    }
+    .feature-icon { color:$account-card-premium; }
+    .btn-primary { background:$account-card-premium; border:1px solid $account-card-premium; }
+  }
+
+  .account-type-card.card-vip {
+    .account-card-header {
+      background: $account-card-vip;
+    }
+    .feature-icon { color:$account-card-vip; }
+    .btn-primary { background:$account-card-vip; border:1px solid $account-card-vip; }
+  }
+
+}
