@@ -911,6 +911,76 @@ footer {
           .page-contact-content .login-form .side-right .contact-social a:first-child {
             padding-left: 0; }
 
+.login-register-block {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background: #fff;
+  height: 740px; }
+  .login-register-block .entry-block {
+    padding: 30px 40px;
+    width: 50%;
+    justify-content: center;
+    align-items: center; }
+  .login-register-block .form-block {
+    padding: 50px 30px;
+    border-radius: 20px;
+    width: 50%;
+    font-family: "Roboto", sans-serif; }
+    .login-register-block .form-block .section-title {
+      margin-bottom: 20px; }
+      .login-register-block .form-block .section-title h2 {
+        font-size: 25px;
+        font-weight: 100;
+        color: #fff; }
+    .login-register-block .form-block .form-container {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding-left: 30px; }
+    .login-register-block .form-block .form-input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding: 20px 10px;
+      border-radius: 0;
+      background: none; }
+    .login-register-block .form-block label {
+      color: #fff;
+      font-weight: 700; }
+    .login-register-block .form-block ::placeholder {
+      color: #fff;
+      font-size: 14px;
+      padding-left: unset; }
+    .login-register-block .form-block .checkbox-line {
+      margin-top: 20px; }
+      .login-register-block .form-block .checkbox-line label {
+        font-weight: normal; }
+    .login-register-block .form-block .btn-submit {
+      background: #fff;
+      padding: 10px 50px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 10px; }
+  .login-register-block .form-block.form-block-primary {
+    background: #18beb1; }
+    .login-register-block .form-block.form-block-primary .btn-submit {
+      color: #18beb1; }
+  .login-register-block .form-block.form-block-secondary {
+    background: #c14474; }
+    .login-register-block .form-block.form-block-secondary .btn-submit {
+      color: #c14474; }
+  .login-register-block .form-block.form-block-info {
+    background: #5168f2; }
+    .login-register-block .form-block.form-block-info .btn-submit {
+      color: #5168f2; }
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
