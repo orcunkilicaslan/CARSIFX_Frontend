@@ -836,6 +836,151 @@ footer {
     background: #24282b;
     border: 1px solid #24282b; }
 
+.page-contact-content {
+  margin-top: 390px; }
+  .page-contact-content .section-title {
+    width: 70%;
+    margin: 0 auto; }
+  .page-contact-content .login-form {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row; }
+    .page-contact-content .login-form .section-title {
+      width: 100%;
+      margin-bottom: 30px; }
+      .page-contact-content .login-form .section-title h2 {
+        font-size: 30px; }
+      .page-contact-content .login-form .section-title p {
+        font-size: 16px; }
+    .page-contact-content .login-form hr {
+      border: 1px solid #fff;
+      opacity: .5;
+      display: block;
+      margin-top: 30px; }
+    .page-contact-content .login-form .side-left {
+      width: 50%;
+      padding: 30px; }
+      .page-contact-content .login-form .side-left label {
+        color: #333e63;
+        font-weight: 700; }
+      .page-contact-content .login-form .side-left .contact-input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 20px 10px;
+        border-radius: 0; }
+      .page-contact-content .login-form .side-left hr {
+        opacity: unset;
+        margin: 20px 0; }
+      .page-contact-content .login-form .side-left .btn-primary {
+        width: 30%; }
+    .page-contact-content .login-form ::placeholder {
+      color: #777e97;
+      font-size: 14px;
+      padding-left: unset; }
+    .page-contact-content .login-form .side-right {
+      background: #18beb1 url("../images/contact_bg.jpg");
+      padding: 120px 50px;
+      border-radius: 20px;
+      margin-left: 20px;
+      width: 50%;
+      color: #fff; }
+      .page-contact-content .login-form .side-right .contact-details span.label {
+        display: block;
+        font-size: 14px;
+        font-weight: lighter; }
+      .page-contact-content .login-form .side-right .contact-details li {
+        margin: 15px 0; }
+        .page-contact-content .login-form .side-right .contact-details li a {
+          color: #fff;
+          margin-top: 5px;
+          display: block; }
+          .page-contact-content .login-form .side-right .contact-details li a:hover {
+            text-decoration: none; }
+      .page-contact-content .login-form .side-right .contact-social {
+        margin-top: 30px; }
+        .page-contact-content .login-form .side-right .contact-social a {
+          color: #fff;
+          display: inline-block;
+          padding: 0 20px;
+          font-size: 25px; }
+          .page-contact-content .login-form .side-right .contact-social a:first-child {
+            padding-left: 0; }
+
+.login-register-block {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background: #fff;
+  height: 740px; }
+  .login-register-block .entry-block {
+    padding: 30px 40px;
+    width: 50%;
+    justify-content: center;
+    align-items: center; }
+  .login-register-block .form-block {
+    padding: 50px 30px;
+    border-radius: 20px;
+    width: 50%;
+    font-family: "Roboto", sans-serif; }
+    .login-register-block .form-block .section-title {
+      margin-bottom: 20px; }
+      .login-register-block .form-block .section-title h2 {
+        font-size: 25px;
+        font-weight: 100;
+        color: #fff; }
+    .login-register-block .form-block .form-container {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding-left: 30px; }
+    .login-register-block .form-block .form-input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding: 20px 10px;
+      border-radius: 0;
+      background: none; }
+    .login-register-block .form-block label {
+      color: #fff;
+      font-weight: 700; }
+    .login-register-block .form-block ::placeholder {
+      color: #fff;
+      font-size: 14px;
+      padding-left: unset; }
+    .login-register-block .form-block .checkbox-line {
+      margin-top: 20px; }
+      .login-register-block .form-block .checkbox-line label {
+        font-weight: normal; }
+    .login-register-block .form-block .btn-submit {
+      background: #fff;
+      padding: 10px 50px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 10px; }
+  .login-register-block .form-block.form-block-primary {
+    background: #18beb1; }
+    .login-register-block .form-block.form-block-primary .btn-submit {
+      color: #18beb1; }
+  .login-register-block .form-block.form-block-secondary {
+    background: #c14474; }
+    .login-register-block .form-block.form-block-secondary .btn-submit {
+      color: #c14474; }
+  .login-register-block .form-block.form-block-info {
+    background: #5168f2; }
+    .login-register-block .form-block.form-block-info .btn-submit {
+      color: #5168f2; }
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
