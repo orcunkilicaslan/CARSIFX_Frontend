@@ -14,20 +14,20 @@
 * ----------------------------
  */
 
-$primary:#18beb1;
-$secondary:#c14474;
-$info:#5168f2;
-$footer-bg:#242636;
-$footer-bottom:#141522;
-$footer-border-color:#242636;
-$footer-link-color:#828998;
+$primary                 :#18beb1;
+$secondary               :#c14474;
+$info                    :#5168f2;
+$footer-bg               :#242636;
+$footer-bottom           :#141522;
+$footer-border-color     :#242636;
+$footer-link-color       :#828998;
 
-$header-nav-color:#24282b;
-$base-link-color:#24282b;
-$description-text-color:#5b646a;
-$news-body-color:#5b646a;
-$news-border-color:#ebebed;
-$mobile-platform-bg:#f8f9fd;
+$header-nav-color        :#24282b;
+$base-link-color         :#24282b;
+$description-text-color  :#5b646a;
+$news-body-color         :#5b646a;
+$news-border-color       :#ebebed;
+$mobile-platform-bg      :#f8f9fd;
 
 /**
 * ----------------------------
@@ -45,13 +45,13 @@ $base-line-height:1.5px;
 * ----------------------------
  */
 
-$x-small:575.98px;
-$small:767.98px;
-$medium:991.98px;
-$large:1280px;
-$x-large:1490px;
-$xx-large:1920px;
-$xxx-large:2560px;
+$x-small    :575.98px;
+$small      :767.98px;
+$medium     :991.98px;
+$large      :1280px;
+$x-large    :1490px;
+$xx-large   :1920px;
+$xxx-large  :2560px;
 
 /**
 * ----------------------------
@@ -59,19 +59,23 @@ $xxx-large:2560px;
 * ----------------------------
  */
 
-$base-button-width:140px;
-$form-input-bg:#e5e8e8;
+$base-button-width              :140px;
+$form-input-bg                  :#e5e8e8;
 
-$investment-increase-value:#18be9e;
-$investment-decrease-value:#ff4040;
-$investment-normal-value:#3e3b44;
+$investment-increase-value      :#18be9e;
+$investment-decrease-value      :#ff4040;
+$investment-normal-value        :#3e3b44;
 
-$account-card-primary:$primary;
-$account-card-premium:$info;
-$account-card-vip:#24282b;
-$account-card-body:#f5f5f5;
-$account-card-border:#eaeaeb;
-$account-card-body-text:#5b646a;
+$account-card-primary           :$primary;
+$account-card-premium           :$info;
+$account-card-vip               :#24282b;
+$account-card-body              :#f5f5f5;
+$account-card-border            :#eaeaeb;
+$account-card-body-text         :#5b646a;
 
-$contact-form-label-color:#333e63;
-$contact-form-placeholder-color:#777e97;
+$contact-form-label-color       :#333e63;
+$contact-form-placeholder-color :#777e97;
+
+$form-block-primary             :$primary;
+$form-block-secondary           :$secondary;
+$form-block-info                :$info;
