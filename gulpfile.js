@@ -3,6 +3,7 @@ const sass = require('gulp-sass');
 const twig = require('gulp-twig');
 const browserSync = require('browser-sync');
 const reload = browserSync.reload;
+const minify = require('gulp-minify');
 
 const config = {
     paths: {
@@ -33,6 +34,12 @@ gulp.task('process-images', ()=>{
         .pipe(gulp.dest('./dist/images'));
 });
 
+gulp.task('process-javascript', ()=> {
+    return gulp.src('./src/js/*.js')
+        .pipe(minify())
+        .pipe(gulp.dest('dist/js'))
+});
+
 gulp.task('scss', () => {
     return gulp.src('./src/styles/*.*') // *.*
         .pipe(sass())
@@ -55,6 +62,13 @@ gulp.task('serve', () => {
 
     gulp.watch('src/styles/**', gulp.series(['scss'])); // **
     gulp.watch('src/**', gulp.series(['twig'])).on('change', reload);        // **
+    gulp.watch('src/js/**', gulp.series(['process-javascript'])).on('change', reload);
 });
 
-gulp.task('default', gulp.series([gulp.parallel(['scss', 'process-fonts', 'process-images']), 'twig','serve']));
+gulp.task('default', gulp.series([gulp.parallel(
+    [
+        'scss',
+        'process-fonts',
+        'process-images',
+        'process-javascript'
+    ]), 'twig','serve']));
