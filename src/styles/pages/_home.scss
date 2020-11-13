@@ -37,6 +37,10 @@
 
 }
 
+.content-slider.slider-small {
+  margin:140px;
+}
+
 .section-boxes {
   font-family:$base-font-family;
   margin-top:350px;
@@ -62,6 +66,14 @@
       margin-right:10px;
     }
   }
+
+  .content-slider.slider-small {
+    .slider-image {
+      top: -245px;
+      right: -490px;
+    }
+  }
+
 }
 
 .section-investment-tools {
@@ -100,6 +112,14 @@
       margin-top:20px;
     }
   }
+
+  .content-slider.slider-small {
+    .slider-image {
+      top: -245px;
+      right: -390px;
+    }
+  }
+
 }
 
 .section-why-us {
@@ -238,6 +258,15 @@
       right: 0;
     }
   }
+
+  .content-slider.slider-small {
+    .slider-image {
+      top: -245px;
+      right: -390px;
+    }
+    margin-bottom: 300px;
+  }
+
 }
 
 @media only screen and(max-width: $xx-large) {
@@ -248,16 +277,34 @@
       right: -13%;
     }
   }
+
+  .content-slider.slider-small {
+    .slider-image {
+      top: -245px;
+      right: -490px;
+    }
+    margin-bottom: 300px;
+  }
+
 }
 
 @media only screen and(max-width: $x-large) {
   body, html { overflow-x: hidden }
   .content-slider {
     .slider-image {
-      top: -90%;
+      top: -220px;
       right: -35%;
     }
   }
+
+  .content-slider.slider-small {
+    .slider-image {
+      top: -245px;
+      right: -490px;
+    }
+    margin-bottom: 300px;
+  }
+
 }
 
 @media only screen and(max-width: $large) {
@@ -269,6 +316,10 @@
     }
   }
 
+  .section-title h2 {
+    font-size: 30px !important;
+  }
+
   .section-boxes {
     margin-top: 220px;
   }
@@ -277,24 +328,36 @@
 
 @media only screen and (max-width: $x-small) {
   .content-slider {
+    width:100%;
+    margin-top:380px;
+    margin-bottom: 20px;
     .slider-content {
       width:100%;
-      text-align: center;
-      margin-top:50px;
     }
     .slider-image {
-      top: -600px;
-      right: 0;
-      left:50%;
+      background-size: contain !important;
+      width:395px;
+      height:225px;
+      top: -320px;
+      right: -70px;
     }
+  }
+
+  .section-title h2 {
+    font-size: 30px !important;
   }
 
   .section-boxes {
-    margin-top:-30px;
+    margin-top:150px;
+
+    .section-title {
+      width:91%;
+      text-align: left;
+    }
   }
 
   .section-platforms {
-    text-align: center;
+    text-align: left;
     margin-top:70px;
     .platform-buttons {
       margin-bottom: 20px;
@@ -302,50 +365,40 @@
     }
   }
 
-  .section-investment-tools {
-    .content-card {
-      margin-bottom: 30px;
-      .header {
-        text-align: center;
-      }
-    }
-  }
-
   .section-why-us {
+
+    position: relative;
     margin-top: 170px;
-    text-align: center;
+    text-align: left;
+
+    .why-carsi-fx-bg {
+      width: 391px;
+      height: 626px;
+      position: absolute;
+      background: url("../images/Neden_CarsiFX.png") no-repeat;
+      left: -70px;
+      background-size: contain;
+      top: -90px;
+      img { display:none; }
+    }
+
+    .section-title {
+      padding-top: 150px;
+    }
+
   }
 
   .section-news {
-    margin-top: 220px;
-
-    .news-card {
-      .details {
-        a, span {
-          font-size:11px;
-          // border:1px solid red;
-        }
-
-        a { width:40%; }
-        span { width:55%; }
-
-      }
-    }
-
+    margin-top:80px;
   }
 
   .section-mobile-actions {
-
-    text-align: center;
-
-    margin-top: 0;
-
     .mobile-platform-box {
-      .btn-download {
-        font-size:14px;
-        width:150px;
-      }
+      width:80%;
+      display:block;
+      margin:0 auto;
     }
+    margin-bottom: 300px;
   }
 
 }

@@ -73,4 +73,10 @@
     .btn-primary { background:$account-card-vip; border:1px solid $account-card-vip; }
   }
 
+} //
+
+@media only screen and (max-width: $x-small) {
+  .page-account-types {
+    margin-top: 50px;
+  }
 }
