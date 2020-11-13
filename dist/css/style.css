@@ -175,12 +175,13 @@ header.header-sticky {
 .mobile-menu {
   display: none;
   position: fixed;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff;
   width: 100%;
   height: 100%;
   z-index: 1;
   padding: 20px; }
   .mobile-menu nav {
+    font-family: "Roboto", sans-serif;
     margin-top: 60px; }
     .mobile-menu nav a {
       display: block;
@@ -188,6 +189,7 @@ header.header-sticky {
       margin: 20px;
       color: #000; }
   .mobile-menu .menu-close {
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 20px;
     right: 20px;
@@ -201,10 +203,10 @@ header.header-sticky {
     color: #18beb1; }
   .mobile-menu a.btn-outline-primary {
     color: #18beb1;
-    width: 40%; }
+    width: 27%; }
   .mobile-menu a.btn-primary {
     color: #fff;
-    width: 40%; }
+    width: 27%; }
 
 .section-title {
   font-family: "Roboto", sans-serif; }
@@ -312,6 +314,8 @@ footer {
         footer .bar .carsifx-mobile-img {
           display: block;
           bottom: -350px; } }
+  footer .bar.hide-phone .carsifx-mobile-img {
+    display: none; }
   footer .footer-bottom {
     position: relative;
     z-index: 1;
@@ -385,7 +389,12 @@ footer {
         left: 195px; }
         @media screen and (max-width: 575.98px) {
           .section-register-steps .steps-container .step-1:after {
-            display: none; } }
+            display: block;
+            width: 3px;
+            height: 45px;
+            top: 200px;
+            left: 172px;
+            background-image: linear-gradient(to left, #5168f2, #69d694) !important; } }
     .section-register-steps .steps-container .step-2 {
       position: relative; }
       .section-register-steps .steps-container .step-2:after {
@@ -398,7 +407,12 @@ footer {
         left: 195px; }
         @media screen and (max-width: 575.98px) {
           .section-register-steps .steps-container .step-2:after {
-            display: none; } }
+            display: block;
+            width: 3px;
+            height: 45px;
+            top: 200px;
+            left: 172px;
+            background-image: linear-gradient(to left, #e76a96, #5168f2) !important; } }
     .section-register-steps .steps-container .step-card {
       font-family: "Roboto", sans-serif;
       text-align: center;
@@ -406,7 +420,8 @@ footer {
       padding: 20px; }
       @media screen and (max-width: 575.98px) {
         .section-register-steps .steps-container .step-card {
-          width: 100%; } }
+          width: 100%;
+          margin-bottom: 10px; } }
       .section-register-steps .steps-container .step-card .step-outer.step-bg-primary {
         background: #dbfaf8; }
         .section-register-steps .steps-container .step-card .step-outer.step-bg-primary .step-inner {
