@@ -91,3 +91,31 @@
   }
 
 }
+
+@media only screen and (max-width: $x-small) {
+  .page-analysis-content {
+    margin-top: 50px;
+
+    .analysis-news-container {
+      .analysis-card {
+        width:100%;
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-analysis-content {
+    margin-top: 50px;
+
+    .analysis-news-container {
+      .analysis-card {
+        width:100%;
+      }
+    }
+
+  }
+
+}

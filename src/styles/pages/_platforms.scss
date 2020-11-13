@@ -1,5 +1,5 @@
 .page-platforms-block {
-  margin-top:540px;
+  margin-top:220px;
 
   .platform-block {
     margin-bottom: 100px;
@@ -46,6 +46,86 @@
       border-radius: 3px;
     }
 
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-platforms-block{
+    margin-top: 50px;
+    .platform-block {
+      .buttons  {
+        width:100%;
+        a {
+          width:170px;
+          font-size:smaller;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-platforms-block{
+    margin-top: 50px;
+    .platform-block {
+      .buttons  {
+        width:100%;
+        a {
+          width:170px;
+          font-size:smaller;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-platforms-block{
+    margin-top: 50px;
+    .platform-block {
+      .buttons  {
+        width:100%;
+        a {
+          width:170px;
+          font-size:smaller;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-platforms-block{
+    margin-top: 50px;
+    .platform-block {
+      .buttons  {
+        width:100%;
+        a {
+          width:170px;
+          font-size:smaller;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: $x-small) {
+  .page-platforms-block{
+    margin-top: 50px;
+    .platform-block {
+      .buttons  {
+        width:100%;
+        a {
+          width:170px;
+          font-size:smaller;
+        }
+      }
+    }
   }
 
 }

@@ -54,6 +54,7 @@ footer {
 
           @media screen and(max-width: $x-small) {
             width:100%;
+            display: in;
           }
 
         }
@@ -68,9 +69,10 @@ footer {
         }
 
         @media screen and(max-width: $x-small) {
-          display: block;
+          display: inline-block;
           text-align: center;
-          width:100%;
+          width:49%;
+          vertical-align: top;
         }
 
       }
@@ -108,7 +110,8 @@ footer {
       right:0;
 
       @media screen and (max-width:$x-small) {
-        display:none;
+        display: block;
+        bottom:-350px;
       }
 
     }
@@ -120,6 +123,11 @@ footer {
     padding:20px;
     background: $footer-bottom;
 
+    @media screen and (max-width:$x-small) {
+      padding:0;
+      .col-lg-9 { padding:0; }
+    }
+
     .contact-info {
       font-family: $base-font-family;
       fonts-size:12px;
@@ -130,6 +138,9 @@ footer {
         display: inline-block;
         padding:0 5px;
         font-size:12px;
+        @media screen and (max-width:$x-small) {
+          padding:0;
+        }
       }
 
       .text {
@@ -155,6 +166,8 @@ footer {
       }
 
     }
+
+
 
     .social-links {
       text-align: right;
