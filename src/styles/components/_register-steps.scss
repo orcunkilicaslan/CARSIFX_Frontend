@@ -16,8 +16,6 @@
       display:block;
     }
 
-    // 0537 218 05 13 - Veysel<
-
     .step-1 {
       position: relative;
       &:after {
@@ -30,7 +28,12 @@
         left: 195px;
 
         @media screen and (max-width:$x-small) {
-          display: none;
+          display: block;
+          width: 3px;
+          height:45px;
+          top:200px;
+          left:172px;
+          background-image:linear-gradient(to left, #5168f2, #69d694) !important;
         }
 
       }
@@ -48,7 +51,12 @@
         left: 195px;
 
         @media screen and (max-width:$x-small) {
-          display: none;
+          display: block;
+          width: 3px;
+          height:45px;
+          top:200px;
+          left:172px;
+          background-image: linear-gradient(to left, #e76a96, #5168f2) !important;
         }
 
       }
@@ -62,6 +70,7 @@
 
       @media screen and (max-width:$x-small) {
         width: 100%;
+        margin-bottom: 10px;
       }
 
       .step-outer.step-bg-primary {

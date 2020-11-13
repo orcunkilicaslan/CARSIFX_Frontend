@@ -117,6 +117,12 @@ footer {
     }
   }
 
+  .bar.hide-phone {
+    .carsifx-mobile-img {
+      display: none;
+    }
+  }
+
   .footer-bottom {
     position: relative;
     z-index: 1;

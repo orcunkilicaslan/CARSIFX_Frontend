@@ -25,6 +25,26 @@ window.onscroll = function() {
 
 /**
  * ----------------------------
+ *   isMobile Utility         *
+ * ----------------------------
+ */
+
+const breakPoints = {
+    xSmall  : 576,
+    small   : 768,
+    medium  : 992,
+    large   : 1280,
+    xLarge  : 1490,
+    xxLarge : 1920,
+    xxxLarge: 2560,
+};
+
+function isMobile() {
+    return window.innerWidth < breakPoints.xSmall;
+}
+
+/**
+ * ----------------------------
  *   Mobile menu open-close  *
  * ----------------------------
  */
@@ -48,3 +68,17 @@ $(document).ready(function(){
     })
 
 });
+
+/**
+ * ----------------------------
+ *   Init carousel on mobile  *
+ * ----------------------------
+ */
+
+if( isMobile() ) {
+    new Glider(document.querySelector('.js-card-carousel'), {
+        slidesToShow: 1,
+        draggable: true,
+        dots: '.dots',
+    });
+}
