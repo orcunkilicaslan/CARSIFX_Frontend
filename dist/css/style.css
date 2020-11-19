@@ -699,35 +699,32 @@ footer {
   .content-slider .slider-image {
     top: -220px;
     right: 0; }
-  .content-slider.slider-small {
-    margin-bottom: 300px; }
-    .content-slider.slider-small .slider-image {
-      top: -245px;
-      right: -390px; } }
+  .content-slider.slider-small .slider-image {
+    top: -245px;
+    right: -40px;
+    width: 860px; } }
 
 @media only screen and (max-width: 1920px) {
   body, html {
     overflow-x: hidden; }
   .content-slider .slider-image {
     top: -85%;
-    right: -13%; }
-  .content-slider.slider-small {
-    margin-bottom: 300px; }
-    .content-slider.slider-small .slider-image {
-      top: -245px;
-      right: -490px; } }
+    right: -13%;
+    width: 860px; }
+  .content-slider.slider-small .slider-image {
+    top: -245px;
+    right: -490px; } }
 
 @media only screen and (max-width: 1490px) {
   body, html {
     overflow-x: hidden; }
   .content-slider .slider-image {
     top: -220px;
-    right: -35%; }
-  .content-slider.slider-small {
-    margin-bottom: 300px; }
-    .content-slider.slider-small .slider-image {
-      top: -245px;
-      right: -490px; } }
+    right: -35%;
+    width: 860px; }
+  .content-slider.slider-small .slider-image {
+    top: -245px;
+    right: -490px; } }
 
 @media only screen and (max-width: 1280px) {
   body, html {
@@ -918,9 +915,9 @@ footer {
     margin-top: 50px; } }
 
 .page-analysis-content {
-  margin-top: 450px; }
+  margin-top: 250px; }
   .page-analysis-content .section-title {
-    width: 70%;
+    width: 100%;
     margin: 0 auto; }
   .page-analysis-content .analysis-news-container {
     display: flex;
@@ -1080,7 +1077,7 @@ footer {
       margin-top: 30px; } }
 
 .page-account-types {
-  margin-top: 390px; }
+  margin-top: 150px; }
   .page-account-types .section-title {
     width: 70%;
     margin: 0 auto; }
@@ -1137,6 +1134,15 @@ footer {
 @media only screen and (max-width: 575.98px) {
   .page-account-types {
     margin-top: 50px; } }
+
+.page-account-actions-section {
+  margin-top: 150px;
+  font-family: "Roboto", sans-serif; }
+  .page-account-actions-section .content {
+    margin-top: 30px; }
+  .page-account-actions-section .small-title {
+    font-weight: bold;
+    font-size: 20px; }
 
 .page-contact-content {
   margin-top: 390px; }
