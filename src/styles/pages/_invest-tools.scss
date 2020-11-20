@@ -1,0 +1,31 @@
+.currency-table-top-border {
+
+  margin-top: 50px;
+
+  border-top:1px solid #a9b1b1;
+  padding-top: 30px;
+
+  thead {
+    th {
+      &:first-child {
+        text-align: left !important;
+      }
+      &:last-child {
+        text-align: right !important;
+      }
+    }
+  }
+
+  tbody {
+    td {
+      &:first-child {
+        text-align: left !important;
+      }
+      &:last-child {
+        text-align: right !important;
+      }
+    }
+
+  }
+
+}
