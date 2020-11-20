@@ -19,6 +19,10 @@
       .btn-start-now {
         font-family: $base-font-family;
         font-weight: normal;
+        padding: 5px 30px;
+        font-stretch: condensed;
+        font-size: 18px;
+        margin-right: 10px;
       }
     }
 
@@ -189,12 +193,16 @@
     }
     .details {
       margin-top:5px;
-      a, span {
+      a.news-link, span.date-category {
         display:inline-block;
         width:49%;
       }
-      a {
+      a.news-link {
         text-align: right;
+      }
+      a.news-category {
+        margin-right: 5px;
+        font-weight: bold;
       }
     }
   }
@@ -223,7 +231,7 @@
     }
 
     .platform-name {
-      margin:20px 0;
+      margin:10px 0;
       color:$base-link-color;
       font-weight: bold;
     }
