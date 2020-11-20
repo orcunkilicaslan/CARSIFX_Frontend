@@ -1,6 +1,8 @@
 header {
   font-family:$base-font-family;
-  padding:30px 20px;
+  padding:15px 20px;
+  background: rgba(250, 250, 250, .97);
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
   .main-menu {
     margin-left:235px;
     margin-top:5px;
@@ -11,6 +13,10 @@ header {
       font-weight: normal;
       display:inline-block;
       padding:0 20px;
+    }
+    a.active {
+      color:$primary;
+      font-weight: bold;
     }
   }
 
@@ -25,27 +31,68 @@ header {
     object-fit: contain;
   }
 
-  .login-register-menu a {
-    width:140px;
-    margin-left:10px;
+  .login-register-menu  {
+    position: relative;
+    a {
+      width:140px;
+      margin-left:10px;
+      font-stretch: condensed;
+      font-size:16px;
+    }
+  }
+
+  .login-popup-container {
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    width:300px;
+   // height:235px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    right:0;
+    top:50px;
+    padding:20px;
+    display: none;
+
+    .title {
+      text-align: center;
+      font-weight: bold;
+      color:#31373b;
+      margin-bottom: 10px;
+    }
+
+    a.forgot-pw-link {
+      margin-left: -35px;
+      display: block;
+      color:#5b646a;
+      text-decoration: underline;
+    }
+
+    .remember-me {
+      font-family: $base-font-family;
+      font-size: 14px;
+    }
+
   }
 
 }
 
 header.header-sticky {
-  background: #fff;
+  // background: #fff;
   position: fixed;
   width: 100%;
   top:0;
   z-index: 1;
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
 
+  /*
   .login-register-menu a {
     &:first-child {
       border:1px solid $primary;
       color:$primary;
     }
   }
+  */
 
 }
 
