@@ -10,11 +10,11 @@
     border-left:unset  !important;;
     border-right:unset  !important;;
     border-top: unset !important;;
-    border-bottom: 1px solid $primary !important;;
+    // border-bottom: 1px solid !important;;
     padding-bottom: 10px;
   }
   .nav-link.active {
-    border-bottom: 1px solid $primary !important;;
+    border-bottom: 2px solid $primary !important;;
     color:$primary !important;;
     font-weight: bold !important;;
   }
@@ -22,30 +22,6 @@
 
 @media only screen and (max-width: $x-small) {
   .custom-tabs-container {
-    a.nav-link { font-size: 12px !important; padding:0; }
-  }
-}
-
-@media only screen and (max-width: $x-small) {
-  .custom-tabs-container {
-    a.nav-link { font-size: 12px !important; padding:0; }
-  }
-}
-
-@media only screen and (max-width: $x-small) {
-  .custom-tabs-container {
-    a.nav-link { font-size: 12px !important; padding:0; }
-  }
-}
-
-@media only screen and (max-width: $x-small) {
-  .custom-tabs-container {
-    a.nav-link { font-size: 12px !important; padding:0; }
-  }
-}
-
-@media only screen and (max-width: $x-small) {
-  .custom-tabs-container {
-    a.nav-link { font-size: 12px !important; padding:0; }
+    a.nav-link { font-size: 12px !important; padding:0 6px; }
   }
 }
