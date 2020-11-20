@@ -32,21 +32,59 @@
             <div class="col-6 col-xs-6">
                 <div class="main-menu">
                     <nav role="navigation">
-                        <a href="javascript:;">Özellikler</a>
+                        <a class="active" href="account-actions.html">Hesap İşlemleri</a>
                         <a href="platforms.html">Platform</a>
-                        <a href="javascript:;">Analiz</a>
-                        <a href="javascript:;">Şirket</a>
-                        <a href="javascript:;">Duyurular</a>
-                        <a href="javascript:;">Destek</a>
+                        <a href="analysis.html">Analiz</a>
+                        <a href="about-us.html">Şirket</a>
+                        <a href="announcements.html">Duyurular</a>
+                        <a href="contact.html">Destek</a>
                     </nav>
                 </div>
             </div>
 
             <div class="col-4 text-right">
                 <div class="login-register-menu">
-                    <a class="btn btn-outline-light">Giriş Yap</a>
-                    <a class="btn btn-primary">Kayıt Ol</a>
+                    <a class="btn btn-outline-primary js-toggle-login-popup">Giriş Yap</a>
+                    <a class="btn btn-primary" href="open-demo-account.html">Hesap Aç</a>
+
+                    <div class="login-popup-container js-popup-container">
+
+                        <div class="popup-login-form">
+                            <div class="title">
+                                Giriş Yap
+                            </div>
+
+                            <div class="login-popup-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control contact-input" id="nameInput" placeholder="Hesap Numarası">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control contact-input" id="nameInputx" placeholder="Şifre">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6 text-right">
+                                        <a class="forgot-pw-link js-forgot-pw">Şifremi Unuttum</a>
+                                    </div>
+                                    <div class="form-group col-md-6 checkbox-line remember-me">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Beni Hatırla</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+
+
+
+
             </div>
 
         </div>
@@ -112,7 +150,8 @@
                             Yüzlerce yatırım ürününde 5 gün 24 saat dilediğiniz yerde işlem yaparak yatırımlarınızı büyütebilir, Alım Satım işlemi yapabilirsiniz. Üstelik Deneme Hesabı açarak ile risksiz işlem yapabilirsiniz.
                         </p>
 
-                        <a href="javascript:;" class="btn btn-secondary btn-start-now">Hemen Başlayın</a>
+                        <a href="javascript:;" class="btn btn-secondary btn-start-now">Gerçek hesap aç</a>
+                        <a href="javascript:;" class="btn btn-outline-secondary btn-start-now">Demo hesap aç</a>
 
                     </div>
 
@@ -130,7 +169,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-title text-center">
-                        <h2>Çarşı FX Ayrıcalıklarıyla İş Yapın</h2>
+                        <h2>ÇarşıFX Ayrıcalıklarıyla İş Yapın</h2>
                         <p>
                             Forex, yatırım yapmanın şeklini de tarzını da değiştirdi; zaman ve mekan sınırı olmadan internetten güvenli, kolay ve avantajlı yatırım için lisanslı olarak hizmet veren bir yatırım kuruluşuyuz.
                         </p>
@@ -199,8 +238,7 @@
                 </div>
 
                 <div class="platform-buttons">
-                    <a href="javascript:;" class="btn btn-info">MetaTrader 4</a>
-                    <a href="javascript:;" class="btn btn-outline-info">MetaTrader 5</a>
+                    <a href="./platforms.html" class="btn btn-info">Detay</a>
                 </div>
 
             </div>
@@ -324,7 +362,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="section-title text-center">
-                    <h2>Forex Haber</h2>
+                    <h2>Haberler</h2>
                     <p>
                         Forex, yatırım yapmanın şeklini de tarzını da değiştirdi; zaman ve mekan sınırı olmadan internetten güvenli, kolay ve avantajlı yatırım için lisanslı olarak hizmet veren bir yatırım kuruluşuyuz.
                     </p>
@@ -335,6 +373,13 @@
         <div class="row news-container">
             <div class="col-lg-6 col-sm-6 col-xs-12 order-1">
                 <div class="news-card news-featured">
+
+                    <div class="details" style="margin-bottom:10px;">
+                        <span class="date-category">
+                            <a class="news-category" href="javascript:;">Forex Haber</a>
+                            14 November 2019 </span>
+                    </div>
+
                     <h3 class="news-title">Uzmanlar TCMB'nin Faiz Kararını Nasıl Karşıladı?</h3>
                     <p class="news-body">
                         Türkiye Cumhuriyet Merkez Bankası (TCMB) Ekim toplantısında bir hafta vadeli repo faizini sabit tutarak yüzde 10.25 seviyesinde bıraktı. TCMB, geç likidite penceresi (GLP) faizini yüzde 13.25’ten yüzde 14.75’e yükseldi. Merkez Bankası geçen ayki toplantısında politika faizini 200 bp artırmıştı.
@@ -361,7 +406,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </div>
                     <div class="details">
-                        <span class="publish-date">14 November 2019 </span>
+                        <span class="date-category">
+                            <a class="news-category" href="javascript:;">Forex Haber</a>
+                            14 November 2019 </span>
                         <a class="news-link">
                             Detay
                             <i data-feather="arrow-right"></i>
@@ -377,7 +424,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </div>
                     <div class="details">
-                        <span class="publish-date">14 November 2019 </span>
+                        <span class="date-category">
+                            <a class="news-category" href="javascript:;">Forex Haber</a>
+                            14 November 2019 </span>
                         <a class="news-link">
                             Detay
                             <i data-feather="arrow-right"></i>
@@ -395,7 +444,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </div>
                     <div class="details">
-                        <span class="publish-date">14 November 2019 </span>
+                        <span class="date-category">
+                            <a class="news-category" href="javascript:;">Forex Haber</a>
+                            14 November 2019 </span>
                         <a class="news-link">
                             Detay
                             <i data-feather="arrow-right"></i>
@@ -411,7 +462,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </div>
                     <div class="details">
-                        <span class="publish-date">14 November 2019 </span>
+                        <span class="date-category">
+                            <a class="news-category" href="javascript:;">Forex Haber</a>
+                            14 November 2019 </span>
                         <a class="news-link">
                             Detay
                             <i data-feather="arrow-right"></i>
@@ -506,7 +559,7 @@
                     <a class="platform-name">
                         Android
                     </a>
-                    <p class="platform-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="platform-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     <a class="btn btn-primary btn-download">Android İçin İndir</a>
                 </div>
 
@@ -517,7 +570,7 @@
                     <a class="platform-name">
                         İOS
                     </a>
-                    <p class="platform-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p class="platform-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     <a class="btn btn-primary btn-download">İOS İçin İndir</a>
                 </div>
 
@@ -530,7 +583,7 @@
 
     <footer>
 
-    <div class="bar hide-phone">
+    <div class="bar">
         
         <div class="container">
             <img src="images/Phone.png" class="img-fluid carsifx-mobile-img" />
@@ -556,7 +609,7 @@
 
                              <ul class="links list-unstyled">
                                  <li>
-                                     <a href="#">Hakkımızda</a>
+                                     <a href="about-us.html">Hakkımızda</a>
                                  </li>
                              </ul>
                          </div>
@@ -567,24 +620,21 @@
 
                              <ul class="links list-unstyled">
                                  <li>
-                                     <a href="#">MetaTrader 4</a>
-                                 </li>
-                                 <li>
-                                     <a href="#">MetaTrader 5</a>
+                                     <a href="./platforms.html">Platformlar</a>
                                  </li>
                              </ul>
                          </div>
 
                          <div class="footer-block link-block">
-                             <h4 class="block-title">Piyasalar</h4>
+                             <h4 class="block-title">Yatırım Araçları</h4>
                              <span class="separator"></span>
 
                              <ul class="links list-unstyled">
-                                 <li><a href="#">Para Birimleri</a></li>
-                                 <li><a href="#">Metaller</a></li>
-                                 <li><a href="#">Borsa Endeksleri</a></li>
-                                 <li><a href="#">Kıymetli Madenler</a></li>
-                                 <li><a href="#">Kripto Paralar</a></li>
+                                 <li><a href="invest-tools-currencies.html">Para Birimleri</a></li>
+                                 <li><a href="invest-tools-metals.html">Metaller</a></li>
+                                 <li><a href="invest-tools-emtia.html">Emtia</a></li>
+                                 <li><a href="invest-tools-exchanges.html">Borsa Endeksleri</a></li>
+                                 <li><a href="invest-tools-crypto-currencies.html">Kripto Paralar</a></li>
                              </ul>
                          </div>
 
@@ -593,21 +643,20 @@
                              <span class="separator"></span>
 
                              <ul class="links list-unstyled">
-                                 <li><a href="#">Demo Hesap Açın!</a></li>
-                                 <li><a href="#">Gerçek Hesap Açın!</a></li>
-                                 <li><a href="#">Hesabınızı Taşıyın</a></li>
-                                 <li><a href="#">Hesap Türleri</a></li>
+                                 <li><a href="open-demo-account.html">Demo Hesap Açın!</a></li>
+                                 <li><a href="open-real-account.html">Gerçek Hesap Açın!</a></li>
+                                 <li><a href="move-account.html">Hesabınızı Taşıyın</a></li>
+                                 <li><a href="account-types.html">Hesap Türleri</a></li>
                              </ul>
                          </div>
 
                          <div class="footer-block link-block">
-                             <h4 class="block-title">Tablolar</h4>
+                             <h4 class="block-title">Bilgi Bankası</h4>
                              <span class="separator"></span>
 
                              <ul class="links list-unstyled">
-                                 <li><a href="#">Fiyat Akışı</a></li>
-                                 <li><a href="#">Ürün Özellikleri</a></li>
-                                 <li><a href="#">İşlem Saatleri</a></li>
+                                 <li><a href="what-is-forex.html">Forex Nedir</a></li>
+                                 <li><a href="faq.html">Sıkça Sorulanlar</a></li>
                              </ul>
                          </div>
 

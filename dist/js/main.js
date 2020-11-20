@@ -82,3 +82,27 @@ if( isMobile() ) {
         dots: '.dots',
     });
 }
+
+/**
+ * ----------------------------
+ *   Toggle Login Popup &     *
+ *   Forgot Pw Navigation     *
+ * ----------------------------
+ */
+
+const popupToggle = $('.js-toggle-login-popup');
+const forgotLink = $('.js-forgot-pw');
+const popupContainer = $('.js-popup-container');
+
+popupToggle.on('click', function(){
+
+    popupContainer.fadeIn('fast');
+});
+
+// Handle close popup div on click anywhere
+
+$(document).on('click', function (event) {
+    if(! event.target.classList.contains('js-toggle-login-popup')) {
+        popupContainer.hide();
+    }
+});

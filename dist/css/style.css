@@ -117,7 +117,9 @@
  */
 header {
   font-family: "Roboto", sans-serif;
-  padding: 30px 20px; }
+  padding: 15px 20px;
+  background: rgba(250, 250, 250, 0.97);
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1); }
   header .main-menu {
     margin-left: 235px;
     margin-top: 5px; }
@@ -128,6 +130,9 @@ header {
       font-weight: normal;
       display: inline-block;
       padding: 0 20px; }
+    header .main-menu a.active {
+      color: #18beb1;
+      font-weight: bold; }
   header .header-image {
     position: absolute;
     width: 1020px;
@@ -137,20 +142,52 @@ header {
     z-index: -1;
     background: center center;
     object-fit: contain; }
-  header .login-register-menu a {
-    width: 140px;
-    margin-left: 10px; }
+  header .login-register-menu {
+    position: relative; }
+    header .login-register-menu a {
+      width: 140px;
+      margin-left: 10px;
+      font-stretch: condensed;
+      font-size: 16px; }
+  header .login-popup-container {
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    right: 0;
+    top: 50px;
+    padding: 20px;
+    display: none; }
+    header .login-popup-container .title {
+      text-align: center;
+      font-weight: bold;
+      color: #31373b;
+      margin-bottom: 10px; }
+    header .login-popup-container a.forgot-pw-link {
+      margin-left: -35px;
+      display: block;
+      color: #5b646a;
+      text-decoration: underline; }
+    header .login-popup-container .remember-me {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px; }
 
 header.header-sticky {
-  background: #fff;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
-  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1); }
-  header.header-sticky .login-register-menu a:first-child {
-    border: 1px solid #18beb1;
-    color: #18beb1; }
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  /*
+  .login-register-menu a {
+    &:first-child {
+      border:1px solid $primary;
+      color:$primary;
+    }
+  }
+  */ }
 
 .mobile-header {
   display: none;
@@ -308,7 +345,7 @@ footer {
     footer .bar .carsifx-mobile-img {
       position: absolute;
       z-index: 1;
-      bottom: -370px;
+      bottom: -510px;
       right: 0; }
       @media screen and (max-width: 575.98px) {
         footer .bar .carsifx-mobile-img {
@@ -555,7 +592,11 @@ footer {
       margin-top: 20px; }
     .content-slider .slider-content .section-title .btn-start-now {
       font-family: "Roboto", sans-serif;
-      font-weight: normal; }
+      font-weight: normal;
+      padding: 5px 30px;
+      font-stretch: condensed;
+      font-size: 18px;
+      margin-right: 10px; }
   .content-slider .slider-image {
     position: absolute;
     width: 1210px;
@@ -659,11 +700,14 @@ footer {
       text-align: justify; }
     .section-news .news-card .details {
       margin-top: 5px; }
-      .section-news .news-card .details a, .section-news .news-card .details span {
+      .section-news .news-card .details a.news-link, .section-news .news-card .details span.date-category {
         display: inline-block;
         width: 49%; }
-      .section-news .news-card .details a {
+      .section-news .news-card .details a.news-link {
         text-align: right; }
+      .section-news .news-card .details a.news-category {
+        margin-right: 5px;
+        font-weight: bold; }
 
 .section-mobile-actions {
   margin: 50px 0; }
@@ -679,7 +723,7 @@ footer {
     .section-mobile-actions .mobile-platform-box .platform-icon {
       font-size: 45px; }
     .section-mobile-actions .mobile-platform-box .platform-name {
-      margin: 20px 0;
+      margin: 10px 0;
       color: #24282b;
       font-weight: bold; }
     .section-mobile-actions .mobile-platform-box .platform-description {
@@ -998,7 +1042,7 @@ footer {
       width: 100%; } }
 
 .page-about-our-achievements {
-  margin-top: 350px;
+  margin-top: 220px;
   margin-bottom: 150px; }
   .page-about-our-achievements .award-box {
     margin-top: 0;
@@ -1145,7 +1189,7 @@ footer {
     font-size: 20px; }
 
 .page-contact-content {
-  margin-top: 390px; }
+  margin-top: 220px; }
   .page-contact-content .section-title {
     width: 70%;
     margin: 0 auto; }
@@ -1380,7 +1424,7 @@ footer {
       width: 100%; } }
 
 .page-announcements-section {
-  margin-top: 390px; }
+  margin-top: 220px; }
   .page-announcements-section .announcements-container {
     margin-top: 50px;
     font-family: "Roboto", sans-serif; }
