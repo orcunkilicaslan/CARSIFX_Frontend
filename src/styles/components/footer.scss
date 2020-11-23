@@ -84,6 +84,7 @@ footer {
       font-size:12px;
       margin-top:20px;
       color:$footer-link-color;
+      text-align:justify;
       .risk-warning {
         font-weight: bold;
       }
@@ -136,9 +137,10 @@ footer {
 
     .contact-info {
       font-family: $base-font-family;
-      fonts-size:12px;
+      // font-size:12px;
       margin-top:10px;
       color:$footer-link-color;
+      margin-left:-20px;
 
       li {
         display: inline-block;
@@ -146,6 +148,17 @@ footer {
         font-size:12px;
         @media screen and (max-width:$x-small) {
           padding:0;
+          display: block;
+          margin:20px 0;
+
+          &:first-child {
+            span.text {
+              width:330px;
+              vertical-align: middle;
+              margin-top:-4px;
+            }
+          }
+
         }
       }
 
@@ -181,6 +194,9 @@ footer {
         display:inline-block;
         padding:0 20px;
         font-size:25px;
+        &:last-child {
+          padding-right:0;
+        }
       }
 
       @media screen and (max-width:$x-small) {

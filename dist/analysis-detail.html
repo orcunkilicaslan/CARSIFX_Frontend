@@ -24,7 +24,7 @@
                 <div class="logo">
                     <a href="index.html">
                         <img src="images/carsi_logo.png"
-                             class="img-fluid"  alt="Çarşı FX Logo"/>
+                             class="img-fluid"  alt="ÇarşıFX Logo"/>
                     </a>
                 </div>
             </div>
@@ -32,13 +32,25 @@
             <div class="col-6 col-xs-6">
                 <div class="main-menu">
                     <nav role="navigation">
-                        <a class="active" href="account-actions.html">Hesap İşlemleri</a>
-                        <a href="invest-tools.html">Yatırım Araçları</a>
-                        <a href="platforms.html">Platform</a>
-                        <a href="analysis.html">Analiz</a>
-                        <a href="about-us.html">Şirket</a>
-                        <a href="announcements.html">Duyurular</a>
-                        <a href="contact.html">Destek</a>
+                        <ul class="list-unstyled list-inline">
+                            <li><a class="active" href="account-actions.html">Hesap İşlemleri</a></li>
+                            <li><a href="invest-tools.html">Yatırım Araçları</a></li>
+                            <li><a href="platforms.html">Platform</a></li>
+                            <li class="dropdown">
+                                <a href="analysis.html" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analiz</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a href="analysis-detail.html">USD/JPY</a>
+                                    <a href="analysis-detail.html">GBP/USD</a>
+                                    <a href="analysis-detail.html">EUR/USD</a>
+                                    <a href="analysis-detail.html">NZD/USD</a>
+                                    <a href="analysis-detail.html">USD/CHF</a>
+                                </div>
+                            </li>
+                            <li><a href="about-us.html">Şirket</a></li>
+                            <li><a href="economic-calendar.html">Ekonomik Takvim</a></li>
+                            <li><a href="announcements.html">Duyurular</a></li>
+                            <li><a href="contact.html">Destek</a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>
@@ -104,7 +116,7 @@
     <div class="logo">
         <a href="index.html">
             <img src="images/carsi_logo.png"
-                 class="img-fluid"  alt="Çarşı FX Logo"/>
+                 class="img-fluid"  alt="ÇarşıFX Logo"/>
         </a>
     </div>
 
@@ -123,14 +135,25 @@
         </a>
     </div>
     <nav>
-        <a href="javascript:;">Özellikler</a>
-        <a href="platforms.html">Platform</a>
-        <a href="javascript:;">Analiz</a>
-        <a href="javascript:;">Şirket</a>
-        <a href="javascript:;">Duyurular</a>
-        <a href="javascript:;">Destek</a>
-        <a class="btn btn-outline-primary">Giriş Yap</a>
-        <a class="btn btn-primary">Kayıt Ol</a>
+        <ul class="list-unstyled">
+            <li><a href="account-actions.html">Hesap İşlemleri</a></li>
+            <li><a href="platforms.html">Platform</a></li>
+            <li class="dropdown">
+                <a href="javascript:;" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analiz</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href="analysis-detail.html">USD/JPY</a>
+                    <a href="analysis-detail.html">GBP/USD</a>
+                    <a href="analysis-detail.html">EUR/USD</a>
+                    <a href="analysis-detail.html">NZD/USD</a>
+                    <a href="analysis-detail.html">USD/CHF</a>
+                </div>
+            </li>
+            <li><a href="about-us.html">Şirket</a></li>
+            <li><a href="announcements.html">Duyurular</a></li>
+            <li><a href="contact.html">Destek</a></li>
+            <li><a class="btn btn-outline-primary">Giriş Yap</a></li>
+            <li><a class="btn btn-primary">Kayıt Ol</a></li>
+        </ul>
     </nav>
 </div>
 
@@ -166,8 +189,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title text-center">
-                        <h2>Lorem ipsum dolar sit amet</h2>
+                    <div class="section-title">
+                        <h2>18.11.2020 tarihli Euro Dolar Yorum ve EUR/USD Paritesi Analizleri</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
@@ -176,417 +199,35 @@
             </div>
 
             <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="analysis-image">
+                        <img src="./images/grafik.jpg" />
+                    </div>
+                </div>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="row">
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                    <div class="custom-tabs-container">
-
-                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="all-news-tab" data-toggle="tab" href="#all">Hepsi</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="trade-news-tab" data-toggle="tab" href="#trade">Ticaret</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="tech-analysis-tab" data-toggle="tab" href="#tech">Teknik Analiz</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="basic-analysis-tab" data-toggle="tab" href="#basic">Temel Analiz</a>
-                            </li>
-                        </ul>
-
-                        <div class="tab-content" id="myTabContent">
-
-                            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="home-tab">
-
-                                <div class="analysis-news-container">
-
-                                    <div class="analysis-card  card-full">
-                                        <div class="cover">
-                                            <img src="images/analysis_detail.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                EURCHF paritesinde düşen kanal görünümü içinde fiyatlamalar devam ediyor. Fiyat kanalın üst bandına yakın seyretmekte ve bu bölgede bir kırılım harici kalıcılık satış baskısının güçlenmesini gündeme getirebilir. Bu durumda EURCHF paritesinde ilk olarak 1.06977, akabinde ise 1.06450 bölgesine kadar bir düşüş yaşanabilir. Yükseliş hareketlerinde ise 1.07367 seviyesinin kritik bir arz bölgesi olduğunu söyleyebiliriz. Eğer fiyat bu arz bölgesini aşabilir ve üzerinde saatlik mum kapanışı gösterebilirse düşen görünüm kırılmış olur ve bu durumda 1.07910 seviyesi yeni hedef fiyat olarak takip edilebilir.                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="similar-news">
-
-                                    <div class="title">
-                                        Benzer
-                                    </div>
-
-                                    <div class="analysis-news-container">
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_3.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_4.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="similar-news">
-
-                                    <div class="title">
-                                        En Son
-                                    </div>
-
-                                    <div class="analysis-news-container">
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_5.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="analysis-card">
-                                            <div class="cover">
-                                                <img src="images/analysis_news_image_6.jpg" class="img-fluid" />
-                                            </div>
-                                            <div class="card-content">
-                                                <div class="category-date">
-                                                    <span class="category">Ticaret</span>
-                                                    <span class="date">12 Ekim 2020</span>
-                                                </div>
-                                                <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                                <div class="details">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                </div>
-                                                <a class="detail">
-                                                    Detay
-                                                    <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="tab-pane fade" id="trade" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="analysis-news-container">
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis-news-image.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="tech" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="analysis-news-container">
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis-news-image.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="basic" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="analysis-news-container">
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis-news-image.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="analysis-card">
-                                        <div class="cover">
-                                            <img src="images/analysis_news_image_2.jpg" class="img-fluid" />
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="category-date">
-                                                <span class="category">Ticaret</span>
-                                                <span class="date">12 Ekim 2020</span>
-                                            </div>
-                                            <h3 class="title">AUDJPY pariteisnde 74.797 önemli bir direnç görülebilir</h3>
-                                            <div class="details">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            </div>
-                                            <a class="detail">
-                                                Detay
-                                                <span class="detail-icon">
-                                                    <i data-feather="arrow-right"></i>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
+                    <div class="section-title">
+                        <h2>Teknik Genel Bakış</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
+                </div>
 
+                <p>&nbsp;</p>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h2>Temel Genel Bakış</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -674,7 +315,7 @@
 
                          <div class="footer-block img-block align-self-center">
                              <a href="javascript:;">
-                                 <img src="images/carsi_footer_logo.svg" class="img-fluid" alt="Çarşı FX Logo"/>
+                                 <img src="images/carsi_footer_logo.svg" class="img-fluid" alt="ÇarşıFX Logo"/>
                              </a>
                          </div>
 
@@ -745,14 +386,14 @@
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 risk-warning-box">
 
-                    <span class="risk-warning">Risk Uyarısı:</span>
+                    <span class="risk-warning">Risk Feragatnamesi</span>
 
                     <p>
-                        All financial products traded on margin carry a high degree of risk to your capital. They are not suited to all investors and you can lose more than your initial deposit. Please ensure that you fully understand the risks involved and seek independent advice if necessary. For further information, please see our full Risk Warning, Terms of Business and Privacy Policy.
+                        Risk Uyarısı : Kaldıraçlı alım satım (Foreks) işlemleri; düşük teminatlarla büyük miktarlı pozisyonların alınabildiği yüksek oranda risk içeren işlemlerdir. Kaldıraçlı alım satım işlemleri sonucunda kâr elde edebileceğiniz gibi zarar riskiniz de bulunmaktadır. Foreks işlemleri , yatırılan paranın tamamını kaybetme riski içerdiğinden her yatırımcı için uygun bir piyasa olmayabilir.Bu nedenle işlem yapmaya karar vermeden önce karşılaşabileceğiniz riskleri anlamanız ve kısıtlarınızı dikkate alarak karar vermeniz gerekmektedir.
                     </p>
 
                     <p>
-                        We use cookies to support features like login and allow trusted media partners to analyse aggregated site usage. Keep cookies enabled to enjoy the full site experience. By browsing our site with cookies enabled, you are agreeing to their use. Review our cookies information for more details
+                        www.carsifx.com internet sitesindeki her türlü iç ve dış piyasa tablo ve grafikler, bu konularda hizmet veren üçüncü kişi kurumlardan elde edilmiş olup, CarşıFX  tarafından herhangi bir maddi menfaat beklentisi olmaksızın genel anlamda bilgilendirmek amacıyla hazırlanmıştır. İnternet sitemizde bulunan iç ve dış piyasalara ait tablo ve grafiklerin doğrulukları tarafımızca garanti edilmemekte birlikte, bilgiler belli bir gelirin sağlanmasına yönelik olarak verilmemektedir.
                     </p>
 
                 </div>
@@ -774,21 +415,21 @@
                             <span class="icon-separator">
                                 <i class="fa fa-map-marker contact-icon" aria-hidden="true"></i>
                             </span>
-                            <span class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                            <span class="text"> Business Center,Street # 8, 25th Flooer, Near Deira City Centre Dubai - Dubai - United Arab Emirates</span>
                         </li>
 
                         <li>
                             <span class="icon-separator">
                                 <i class="fa fa-phone contact-icon" aria-hidden="true"></i>
                             </span>
-                            +00 (0) 00 00 00000
+                            +971 4 294 1392
                         </li>
 
                         <li>
                             <span class="icon-separator">
                                 <i class="fa fa-envelope-o contact-icon" aria-hidden="true"></i>
                             </span>
-                            support@Lorem.com
+                            support@carsifx.com
                         </li>
 
                     </ul>
