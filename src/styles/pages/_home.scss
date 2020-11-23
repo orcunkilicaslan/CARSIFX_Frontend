@@ -183,6 +183,7 @@
     margin:20px 0;
     border-bottom: 1px solid $news-border-color;
     padding-bottom: 20px;
+    overflow: auto;
     .news-title {
       font-size:18px;
       font-weight: bold;
@@ -195,10 +196,19 @@
       margin-top:5px;
       a.news-link, span.date-category {
         display:inline-block;
-        width:49%;
       }
+
+      .date-category {
+        float:left;
+      }
+
       a.news-link {
         text-align: right;
+        margin-left:4px;
+        float:right;
+        &:hover {
+          text-decoration:none;
+        }
       }
       a.news-category {
         margin-right: 5px;
