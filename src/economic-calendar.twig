@@ -1,0 +1,633 @@
+{% extends "layouts/base.twig" %}
+
+{% block page_content %}
+
+    {% set showPhone = false %}
+
+    <section class="content-slider slider-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="slider-content">
+
+                        <div class="section-title">
+                            <h2>2020 Ekonomik Takvim</h2>
+                            <p>
+                                Temel analizin ana unsurlarından biri olan ekonomik takvim takibi, piyasada işlem gören varlıkların fiyatlarındaki değişimleri anlayabilmek ve söz konusu bu değişimlerden fayda sağlayabilmek adına büyük önem taşımaktadır.Ekonomik takvim, yatırımcılara, hangi ülkeden, hangi verinin, ne zaman açıklanacağı ile ilgili değerli bilgiler verirken, iktisadi göstergelerin önem derecesine ilişkin de kolaylıklar sağlamaktadır.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="slider-image" style="background:url('./images/analysis_banner.png') no-repeat;"></div>
+    </section>
+
+    <section class="page-economic-calendar">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                    <div class="section-title">
+                        <h2>Ekonomik Takvim</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+
+                    <div class="custom-tabs-container">
+
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="today-tab" data-toggle="tab" href="#today">Bugün</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="tomorrow-tab" data-toggle="tab" href="#tomorrow">Yarın</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="this-week-tab" data-toggle="tab" href="#this-week">Bu Hafta</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="custom-tabs-content">
+
+                        <div class="tab-content" id="myTabContent">
+
+                            <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="home-tab">
+
+                                <div class="table-responsive">
+
+                                    <table class="table calendar-table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Saat</th>
+                                            <th>Para Birimi</th>
+                                            <th>Gösterge</th>
+                                            <th>Önlem Derecesi</th>
+                                            <th>Güncel</th>
+                                            <th>Tahmin</th>
+                                            <th>Önceki</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-info">
+                                                    <span class="fill fill-30"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-50"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-warning">
+                                                    <span class="fill fill-80"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-70"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="tomorrow" role="tabpanel" aria-labelledby="home-tab">
+
+                                <div class="table-responsive">
+
+                                    <table class="table calendar-table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Saat</th>
+                                            <th>Para Birimi</th>
+                                            <th>Gösterge</th>
+                                            <th>Önlem Derecesi</th>
+                                            <th>Güncel</th>
+                                            <th>Tahmin</th>
+                                            <th>Önceki</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-info">
+                                                    <span class="fill fill-30"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-50"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-warning">
+                                                    <span class="fill fill-80"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-70"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="this-week" role="tabpanel" aria-labelledby="home-tab">
+
+                                <div class="table-responsive">
+
+                                    <table class="table calendar-table">
+                                        <thead class="muted">
+                                        <tr>
+                                            <th>Saat</th>
+                                            <th>Para Birimi</th>
+                                            <th>Gösterge</th>
+                                            <th>Önlem Derecesi</th>
+                                            <th>Güncel</th>
+                                            <th>Tahmin</th>
+                                            <th>Önceki</th>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-info">
+                                                    <span class="fill fill-30"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-50"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-primary">
+                                                    <span class="fill fill-60"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-warning">
+                                                    <span class="fill fill-80"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <span class="normal-value">00:10</span>
+                                            </td>
+                                            <td>
+                                                <span class="increase-value">GBP</span>
+                                            </td>
+                                            <td>
+                                                <span>GfK Consumer Confidence (Kasım)</span>
+                                            </td>
+                                            <td>
+                                                <span class="degree degree-secondary">
+                                                    <span class="fill fill-70"></span>
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-34</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                            <td>
+                                                <span class="normal-value">-31</span>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- include free membership component -->
+    {% include "./layouts/components/free-membership.twig" %}
+    <!-- end include free membership component -->
+
+    <!-- include register steps component --->
+    {% include "./layouts/components/register-steps.twig" %}
+    <!-- end include register steps component --->
+
+    <!-- include footer -->
+    {% include "./layouts/footer.twig" %}
+    <!-- include footer -->
+
+{% endblock %}
