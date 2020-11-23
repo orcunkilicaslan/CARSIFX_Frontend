@@ -696,7 +696,8 @@ footer {
   .section-news .news-card {
     margin: 20px 0;
     border-bottom: 1px solid #ebebed;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    overflow: auto; }
     .section-news .news-card .news-title {
       font-size: 18px;
       font-weight: bold; }
@@ -706,10 +707,15 @@ footer {
     .section-news .news-card .details {
       margin-top: 5px; }
       .section-news .news-card .details a.news-link, .section-news .news-card .details span.date-category {
-        display: inline-block;
-        width: 49%; }
+        display: inline-block; }
+      .section-news .news-card .details .date-category {
+        float: left; }
       .section-news .news-card .details a.news-link {
-        text-align: right; }
+        text-align: right;
+        margin-left: 4px;
+        float: right; }
+        .section-news .news-card .details a.news-link:hover {
+          text-decoration: none; }
       .section-news .news-card .details a.news-category {
         margin-right: 5px;
         font-weight: bold; }
@@ -1567,6 +1573,86 @@ footer {
     text-align: left !important; }
   .currency-table-top-border tbody td:last-child {
     text-align: right !important; }
+
+.section-news.news-detail-section {
+  margin-top: 200px; }
+
+.news-detail-section {
+  height: 870px; }
+  .news-detail-section .news-featured {
+    padding-right: 30px;
+    border-right: 1px solid #eaebec !important;
+    margin-bottom: 0 !important; }
+    .news-detail-section .news-featured .details .date-category {
+      float: none;
+      dispay: block; }
+  .news-detail-section .news-image {
+    margin-bottom: 50px; }
+    .news-detail-section .news-image img {
+      width: 100%; }
+  .news-detail-section .news-container-scroll {
+    padding: 0 20px 20px 0;
+    height: 55%;
+    overflow-y: scroll; }
+  .news-detail-section .news-card .details {
+    font-size: 14px; }
+
+.page-economic-calendar .calendar-table {
+  font-family: "Roboto", sans-serif; }
+  .page-economic-calendar .calendar-table thead th {
+    border-bottom: unset;
+    color: #a9b1b1;
+    font-weight: normal; }
+  .page-economic-calendar .calendar-table tbody td {
+    border: unset; }
+  .page-economic-calendar .calendar-table .increase-value {
+    color: #18beb1;
+    font-weight: 700; }
+  .page-economic-calendar .calendar-table .degree {
+    width: 50%;
+    height: 10px;
+    display: block;
+    border-radius: 30px; }
+    .page-economic-calendar .calendar-table .degree .fill {
+      display: block;
+      height: 100%;
+      border-radius: 12px; }
+    .page-economic-calendar .calendar-table .degree .fill-10 {
+      width: 10%; }
+    .page-economic-calendar .calendar-table .degree .fill-20 {
+      width: 20%; }
+    .page-economic-calendar .calendar-table .degree .fill-30 {
+      width: 30%; }
+    .page-economic-calendar .calendar-table .degree .fill-40 {
+      width: 40%; }
+    .page-economic-calendar .calendar-table .degree .fill-50 {
+      width: 50%; }
+    .page-economic-calendar .calendar-table .degree .fill-60 {
+      width: 60%; }
+    .page-economic-calendar .calendar-table .degree .fill-70 {
+      width: 70%; }
+    .page-economic-calendar .calendar-table .degree .fill-80 {
+      width: 80%; }
+    .page-economic-calendar .calendar-table .degree .fill-90 {
+      width: 90%; }
+    .page-economic-calendar .calendar-table .degree .fill-100 {
+      width: 100%; }
+  .page-economic-calendar .calendar-table .degree.degree-primary {
+    border: 1px solid #18beb1; }
+    .page-economic-calendar .calendar-table .degree.degree-primary .fill {
+      background: #18beb1; }
+  .page-economic-calendar .calendar-table .degree.degree-secondary {
+    border: 1px solid #c14474; }
+    .page-economic-calendar .calendar-table .degree.degree-secondary .fill {
+      background: #c14474; }
+  .page-economic-calendar .calendar-table .degree.degree-info {
+    border: 1px solid #5168f2; }
+    .page-economic-calendar .calendar-table .degree.degree-info .fill {
+      background: #5168f2; }
+  .page-economic-calendar .calendar-table .degree.degree-warning {
+    border: 1px solid orange; }
+    .page-economic-calendar .calendar-table .degree.degree-warning .fill {
+      background: orange; }
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
