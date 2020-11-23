@@ -1,0 +1,74 @@
+.page-economic-calendar {
+
+  .calendar-table {
+
+    font-family:$base-font-family;
+
+    thead {
+      th { border-bottom: unset; color:#a9b1b1; font-weight:normal;}
+    }
+
+    tbody {
+      td { border:unset; }
+    }
+
+    .increase-value {
+      color:$primary;
+      font-weight: 700;
+    }
+
+    .degree {
+      width:50%;
+      height:10px;
+      display:block;
+      border-radius: 30px;
+      .fill {
+        display:block;
+         height:100%;
+         border-radius:12px;
+      }
+
+      .fill-10 { width:10%; }
+      .fill-20 { width:20%; }
+      .fill-30 { width:30%; }
+      .fill-40 { width:40%; }
+      .fill-50 { width:50%; }
+      .fill-60 { width:60%; }
+      .fill-70 { width:70%; }
+      .fill-80 { width:80%; }
+      .fill-90 { width:90%; }
+      .fill-100 { width:100%; }
+
+    }
+
+    .degree.degree-primary {
+      border:1px solid $primary;
+      .fill {
+        background:$primary;
+      }
+    }
+
+    .degree.degree-secondary {
+      border:1px solid $secondary;
+      .fill {
+        background:$secondary;
+      }
+    }
+
+    .degree.degree-info {
+      border:1px solid $info;
+      .fill {
+        background:$info;
+      }
+    }
+
+    .degree.degree-warning {
+      border:1px solid orange;
+      .fill {
+        background:orange;
+      }
+    }
+
+  }
+
+}

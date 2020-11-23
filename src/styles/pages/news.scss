@@ -1,0 +1,43 @@
+.section-news.news-detail-section {
+  margin-top: 200px;
+}
+
+.news-detail-section {
+  height:870px;
+
+  .news-featured {
+    padding-right: 30px;
+    border-right: 1px solid #eaebec !important;
+    margin-bottom: 0 !important;
+
+    .details {
+
+      .date-category {
+        float:none;
+        dispay:block;
+      }
+
+    }
+
+  }
+
+  .news-image {
+    margin-bottom: 50px;
+    img {
+      width:100%;
+    }
+  }
+
+  .news-container-scroll {
+    padding:0 20px 20px 0;
+    height:55%;
+    overflow-y:scroll;
+  }
+
+  .news-card {
+    .details {
+      font-size:14px;
+    }
+  }
+
+}
