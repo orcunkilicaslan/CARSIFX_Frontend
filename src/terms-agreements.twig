@@ -1,0 +1,62 @@
+{% extends "layouts/base.twig" %}
+
+{% block page_content %}
+
+    {% set showPhone = false %}
+
+    <section class="subpage-content">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12">
+
+                    <div class="custom-nav">
+                        <a href="privacy-agreement.html">Gizlilik Sözleşmesi</a>
+                        <a href="cookie-policy.html">Çerez Politikası</a>
+                        <a class="active-primary" href="terms-agreements.html">Şartlar ve Koşullar</a>
+                    </div>
+
+                    <div class="page-content">
+
+                        <div class="section-title">
+                            <h2>Şartlar ve Koşullar</h2>
+                        </div>
+
+                        <p>
+                        <h5 class="text-primary">Tanımlar</h5>
+                        <p><strong>1. Kaldıraçlı Alım Satım İşlemi:</strong>Yatırılan teminat tutarı karşılığında, her
+                            türlü döviz, mal, kıymetli maden ve Kurulca belirlenecek diğer varlıkların kaldıraçlı olarak
+                            elektronik ortamda alınıp satılmasını ifade eder.</p>
+                        <p><strong>2. Kaldıraç Oranı:</strong>Yatırılan teminat tutarı karşılığında, her türlü döviz,
+                            mal, kıymetli maden ve Kurulca belirlenecek diğer varlıkların kaldıraçlı olarak elektronik
+                            ortamda alınıp satılmasını ifade eder.</p>
+                        <p><strong>3. Hesap Bakiyesi:</strong>Yatırılan teminat tutarı karşılığında, her türlü döviz,
+                            mal, kıymetli maden ve Kurulca belirlenecek diğer varlıkların kaldıraçlı olarak elektronik
+                            ortamda alınıp satılmasını ifade eder.</p>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- include free membership component -->
+    {% include "./layouts/components/free-membership.twig" %}
+    <!-- end include free membership component -->
+
+    <!-- include register steps component --->
+    {% include "./layouts/components/register-steps.twig" %}
+    <!-- end include register steps component --->
+
+    <!-- include footer -->
+    {% include "./layouts/footer.twig" %}
+    <!-- include footer -->
+
+{% endblock %}

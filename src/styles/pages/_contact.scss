@@ -7,6 +7,34 @@
 
   .login-form {
 
+    .form-group {
+      position: relative;
+    }
+
+    .form-element-error {
+      display: block;
+      padding: 10px 20px;
+      border-radius: 12px;
+      position: absolute;
+      width: 100%;
+      top: -25px;
+      background: #f7f7f8;
+      border: 1px solid #ff4040;
+      &:after {
+        // background: #f7f7f8;
+        content: "";
+        position: absolute;
+        left: 44px;
+        top: 40px;
+        width: 0px;
+        height: 0px;
+        border-top: 0px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid red;
+        transform: rotate(45deg);
+      }
+    }
+
     font-family:$base-font-family;
 
     padding:10px;
@@ -16,6 +44,10 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+
+    textarea {
+      height: 170px;
+    }
 
     .section-title {
       width:100%;
@@ -33,11 +65,9 @@
       label { color:$contact-form-label-color; font-weight: 700; }
 
       .contact-input {
-        border-top:none;
-        border-left:none;
-        border-right:none;
-        padding:20px 10px;
-        border-radius: 0;
+        border:1px solid #929495;
+        border-radius: 3px;
+        padding: 10.7px 6px 9.3px 13px;
 
       }
 
