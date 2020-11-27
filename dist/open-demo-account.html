@@ -1,0 +1,641 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CarsiFX - Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" />
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+<!-- include header --->
+<header id="siteHeader">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-2 col-xs-6">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/carsi_logo.png"
+                             class="img-fluid"  alt="ÇarşıFX Logo"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-xs-6">
+                <div class="main-menu">
+                    <nav role="navigation">
+                        <ul class="list-unstyled list-inline">
+                            <li><a class="active" href="account-actions.html">Hesap İşlemleri</a></li>
+                            <li><a href="invest-tools.html">Yatırım Araçları</a></li>
+                            <li><a href="platforms.html">Platform</a></li>
+                            <li class="dropdown">
+                                <a href="analysis.html" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analiz</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a href="analysis-detail.html">USD/JPY</a>
+                                    <a href="analysis-detail.html">GBP/USD</a>
+                                    <a href="analysis-detail.html">EUR/USD</a>
+                                    <a href="analysis-detail.html">NZD/USD</a>
+                                    <a href="analysis-detail.html">USD/CHF</a>
+                                </div>
+                            </li>
+                            <li><a href="about-us.html">Şirket</a></li>
+                            <li>
+                                <a href="analysis-detail.html">Ekonomik Takvim</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-4 text-right">
+                <div class="login-register-menu">
+                    <a class="btn btn-outline-primary js-toggle-login-popup">Giriş Yap</a>
+                    <a class="btn btn-primary" href="open-demo-account.html">Hesap Aç</a>
+
+                    <div class="login-popup-container js-popup-container">
+
+                        <div class="popup-login-form">
+                            <div class="title">
+                                Giriş Yap
+                            </div>
+
+                            <div class="login-popup-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control contact-input" id="nameInput" placeholder="Hesap Numarası">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control contact-input" id="nameInputx" placeholder="Şifre">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6 text-right">
+                                        <a class="forgot-pw-link js-forgot-pw">Şifremi Unuttum</a>
+                                    </div>
+                                    <div class="form-group col-md-6 checkbox-line remember-me">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Beni Hatırla</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+<div class="mobile-header">
+
+    <div class="menu-toggle js-menu-toggle">
+        <a href="javascript:;">
+            <i data-feather="menu"></i>
+        </a>
+    </div>
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/carsi_logo.png"
+                 class="img-fluid"  alt="ÇarşıFX Logo"/>
+        </a>
+    </div>
+
+    <div class="home">
+        <a href="index.html">
+            <i data-feather="home"></i>
+        </a>
+    </div>
+
+</div>
+
+<div class="mobile-menu js-mobile-menu">
+    <div class="menu-close">
+        <a href="javascript:;" class="js-menu-close">
+            <i class="fa fa-close"></i>
+        </a>
+    </div>
+    <nav>
+        <ul class="list-unstyled">
+            <li><a href="account-actions.html">Hesap İşlemleri</a></li>
+            <li><a href="platforms.html">Platform</a></li>
+            <li class="dropdown">
+                <a href="javascript:;" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analiz</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href="analysis-detail.html">USD/JPY</a>
+                    <a href="analysis-detail.html">GBP/USD</a>
+                    <a href="analysis-detail.html">EUR/USD</a>
+                    <a href="analysis-detail.html">NZD/USD</a>
+                    <a href="analysis-detail.html">USD/CHF</a>
+                </div>
+            </li>
+            <li><a href="about-us.html">Şirket</a></li>
+            <li><a href="announcements.html">Duyurular</a></li>
+            <li><a href="contact.html">Destek</a></li>
+            <li><a class="btn btn-outline-primary">Giriş Yap</a></li>
+            <li><a class="btn btn-primary">Kayıt Ol</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- end header --->
+
+
+
+    
+
+    <section class="content-slider slider-small">
+        <div class="slider-image"
+             style="background:url('./images/login_banner.png') no-repeat; margin-top: -4px;"></div>
+    </section>
+
+    <section class="page-form-container">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="form-block-container">
+
+                        <div class="side side-secondary side-center">
+
+                            <div class="side-content">
+
+                                <div class="section-title text-center">
+                                    <h2>Gerçek Hesap Aç</h2>
+                                    <p>Yatırım statejilerinizi gerçek bir kazanca dönüştürmek için şimdi gerçek hesap açın!</p>
+
+                                    <div>
+                                        <ul class="side-list">
+                                            <li>Düşük Spreadler</li>
+                                            <li>Kişiye özel yatırımcı temsilcisi</li>
+                                            <li>Avantajlarla dolu yatırım</li>
+                                        </ul>
+
+                                        <a class="btn btn-outline-light" href="open-real-account.html">
+                                            Gerçek Hesap Aç
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="side">
+
+                            <div class="form-container">
+
+                                <form method="post" action="?" id="siteForm">
+                                    <div class="form-row">
+                                        <div class="col-lg-8 offset-lg-4">
+                                            <h2 class="form-title">Demo Hesap Aç</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            İsim
+                                        </div>
+                                        <div class="col-lg-8 less-padding">
+                                            <input
+                                                    placeholder="İsim Soyisim"
+                                                    type="text" class="form-control js-form-control"
+                                                    data-required="true"
+                                                    data-min="5"
+                                                    name="nameSurname"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            Doğum Tarihi
+                                        </div>
+                                        <div class="col-lg-8">
+
+                                            <div class="row">
+                                                <div class="col-lg-4 less-padding">
+                                                    <input
+                                                            name="birthDay"
+                                                            placeholder="Gün"
+                                                            type="text"
+                                                            data-required="true"
+                                                            data-min="1"
+                                                            data-short-error-message="true"
+                                                            class="form-control js-form-control"
+                                                    />
+                                                </div>
+
+                                                <div class="col-lg-4 less-padding">
+                                                    <input
+                                                            name="birthMonth"
+                                                            placeholder="Ay"
+                                                            type="text"
+                                                            data-required="true"
+                                                            data-min="1"
+                                                            data-short-error-message="true"
+                                                            class="form-control js-form-control"
+                                                    />
+                                                </div>
+
+                                                <div class="col-lg-4 less-padding">
+                                                    <input
+                                                            name="birthYear"
+                                                            placeholder="Yıl"
+                                                            type="text"
+                                                            data-required="true"
+                                                            data-min="1"
+                                                            data-short-error-message="true"
+                                                            class="form-control js-form-control"
+                                                    />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            E-Posta
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <input type="email"
+                                                   name="email"
+                                                   placeholder="E-mail"
+                                                   data-required="true"
+                                                   data-validation="email"
+                                                   class="form-control js-form-control"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            Telefon
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <input
+                                                    name="phone"
+                                                    placeholder="05XXXXXXXX"
+                                                    maxlength="11"
+                                                    type="tel" data-required="true"
+                                                    class="form-control js-form-control"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            Şifre
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <input
+                                                    name="password"
+                                                    placeholder="Şifre"
+                                                    data-min="8"
+                                                    data-max="16"
+                                                    data-required="true"
+                                                    data-same-as="#passwordConfirm"
+                                                    type="password"
+                                                    class="form-control js-form-control" id="formPassword"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-4">
+                                            <span class="required">*</span>
+                                            Şifre Tekrarı
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <input
+                                                    name="passwordConfirm"
+                                                    placeholder="Şifre Tekrarı"
+                                                    data-required="true"
+                                                    type="password" class="form-control js-form-control"
+                                                    id="passwordConfirm"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input js-form-control"
+                                                       id="exampleCheck1" data-required="true">
+                                                <label class="form-check-label" for="exampleCheck1">Çarşı FX’den
+                                                    elektronik ileti almayı, kullanım koşullarını, kişisel verilerin
+                                                    işlenmesine ilişkin aydınlatma metni ve izin Formu’nu kabul
+                                                    ediyorum.</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group form-check">
+                                                <!--
+                                                <div class="g-recaptcha" data-sitekey="6LcmlLUZAAAAAE3UFNQ3K5mxvUHMsekb495Wyzkh"></div>
+                                                -->
+                                                <input type="checkbox" class="form-check-input" id="notRobotCheck">
+                                                <label class="form-check-label" for="notRobotCheck">Ben Robot
+                                                    Değilim</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 offset-lg-1 text-right">
+                                            <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- include register steps component --->
+    <section class="section-register-steps">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title text-center">
+                    <h2>ÇarşıFX ile forex’e kolayca başlangıç yapın</h2>
+                    <p style="width: 80%; margin:20px auto;">
+                        ÇarşıFX, on yıldan fazladır döviz ve sarrafiye hizmeti veren, hem alaylı hem okullu döviz ve altın piyasası tecrübeli bir ekip tarafından kurulmuştur.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 steps-container">
+
+                <div class="step-card step-1">
+                    <div class="step-outer step-bg-primary">
+                        <div class="step-inner">
+                            <span class="step-num">1</span>
+                        </div>
+                    </div>
+                    <div class="step-title">
+                        Kayıt Formunu Doldurun
+                    </div>
+                    <div class="description">
+                        Hemen üye olun ve ÇarşıFX'in 10.000'lık sanal parası ile gerçek piyasada işlem yapın.
+                    </div>
+                </div>
+
+                <div class="step-card step-2">
+                    <div class="step-outer step-bg-info">
+                        <div class="step-inner">
+                            <span class="step-num">2</span>
+                        </div>
+                    </div>
+                    <div class="step-title">
+                        Onay İşlemini Tamamlayın
+                    </div>
+                    <div class="description">
+                        Dokümanlarınızı bizimle paylaşın ve onay sürecini bitirin.
+                    </div>
+                </div>
+
+                <div class="step-card step-3">
+                    <div class="step-outer step-bg-secondary">
+                        <div class="step-inner">
+                            <span class="step-num">3</span>
+                        </div>
+                    </div>
+                    <div class="step-title">
+                        Yatırıma Başla
+                    </div>
+                    <div class="description">
+                        CarşıFX'in profesyonel ekibinin desteği ile işleme ve kazanmaya başlayın.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- end include register steps component --->
+
+    <!-- include footer -->
+    <footer>
+
+    <div class="bar">
+        
+    </div>
+
+    <div class="main-footer">
+        <div class="container">
+             <div class="row">
+                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                     <div class="footer-blocks">
+
+                         <div class="footer-block img-block align-self-center">
+                             <a href="javascript:;">
+                                 <img src="images/carsi_footer_logo.svg" class="img-fluid" alt="ÇarşıFX Logo"/>
+                             </a>
+                         </div>
+
+                         <div class="footer-block link-block">
+                             <h4 class="block-title">Hakkımızda</h4>
+                             <span class="separator"></span>
+
+                             <ul class="links list-unstyled">
+                                 <li>
+                                     <a href="about-us.html">Hakkımızda</a>
+                                 </li>
+                                 <li>
+                                     <a href="contact.html">İletişim</a>
+                                 </li>
+                             </ul>
+                         </div>
+
+                         <div class="footer-block link-block">
+                             <h4 class="block-title">Platformlar</h4>
+                             <span class="separator"></span>
+
+                             <ul class="links list-unstyled">
+                                 <li>
+                                     <a href="./platforms.html">Platformlar</a>
+                                 </li>
+                             </ul>
+                         </div>
+
+                         <div class="footer-block link-block">
+                             <h4 class="block-title">Yatırım Araçları</h4>
+                             <span class="separator"></span>
+
+                             <ul class="links list-unstyled">
+                                 <li><a href="invest-tools-currencies.html">Para Birimleri</a></li>
+                                 <li><a href="invest-tools-metals.html">Metaller</a></li>
+                                 <li><a href="invest-tools-emtia.html">Emtia</a></li>
+                                 <li><a href="invest-tools-exchanges.html">Borsa Endeksleri</a></li>
+                                 <li><a href="invest-tools-crypto-currencies.html">Kripto Paralar</a></li>
+                             </ul>
+                         </div>
+
+                         <div class="footer-block link-block">
+                             <h4 class="block-title">Hesap İşlemleri</h4>
+                             <span class="separator"></span>
+
+                             <ul class="links list-unstyled">
+                                 <li><a href="open-demo-account.html">Demo Hesap Açın!</a></li>
+                                 <li><a href="open-real-account.html">Gerçek Hesap Açın!</a></li>
+                                 <li><a href="move-account.html">Hesabınızı Taşıyın</a></li>
+                                 <li><a href="account-types.html">Hesap Türleri</a></li>
+                             </ul>
+                         </div>
+
+                         <div class="footer-block link-block">
+                             <h4 class="block-title">Bilgi Bankası</h4>
+                             <span class="separator"></span>
+
+                             <ul class="links list-unstyled">
+                                 <li><a href="what-is-forex.html">Forex Nedir</a></li>
+                                 <li><a href="faq.html">Sıkça Sorulanlar</a></li>
+                                 <li><a href="announcements.html">Duyurular</a></li>
+                             </ul>
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 risk-warning-box">
+
+                    <span class="risk-warning">Risk Feragatnamesi</span>
+
+                    <p>
+                        Risk Uyarısı : Kaldıraçlı alım satım (Foreks) işlemleri; düşük teminatlarla büyük miktarlı pozisyonların alınabildiği yüksek oranda risk içeren işlemlerdir. Kaldıraçlı alım satım işlemleri sonucunda kâr elde edebileceğiniz gibi zarar riskiniz de bulunmaktadır. Foreks işlemleri , yatırılan paranın tamamını kaybetme riski içerdiğinden her yatırımcı için uygun bir piyasa olmayabilir.Bu nedenle işlem yapmaya karar vermeden önce karşılaşabileceğiniz riskleri anlamanız ve kısıtlarınızı dikkate alarak karar vermeniz gerekmektedir.
+                    </p>
+
+                    <p>
+                        www.carsifx.com internet sitesindeki her türlü iç ve dış piyasa tablo ve grafikler, bu konularda hizmet veren üçüncü kişi kurumlardan elde edilmiş olup, CarşıFX  tarafından herhangi bir maddi menfaat beklentisi olmaksızın genel anlamda bilgilendirmek amacıyla hazırlanmıştır. İnternet sitemizde bulunan iç ve dış piyasalara ait tablo ve grafiklerin doğrulukları tarafımızca garanti edilmemekte birlikte, bilgiler belli bir gelirin sağlanmasına yönelik olarak verilmemektedir.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-9 col-xs-12">
+
+                    <ul class="list-unstyled list-inline contact-info">
+                        <li>
+                            <span class="icon-separator">
+                                <i class="fa fa-map-marker contact-icon" aria-hidden="true"></i>
+                            </span>
+                            <span class="text"> Business Center,Street # 8, 25th Flooer, Near Deira City Centre Dubai - Dubai - United Arab Emirates</span>
+                        </li>
+
+                        <li>
+                            <span class="icon-separator">
+                                <i class="fa fa-phone contact-icon" aria-hidden="true"></i>
+                            </span>
+                            +971 4 294 1392
+                        </li>
+
+                        <li>
+                            <span class="icon-separator">
+                                <i class="fa fa-envelope-o contact-icon" aria-hidden="true"></i>
+                            </span>
+                            support@carsifx.com
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-lg-3 text-right col-xs-12">
+
+                    <div class="social-links">
+                        <a href="javascript:;">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:;">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:;">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:;">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+    feather.replace();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- include footer -->
+
+
+
+
+<!-- footer scripts -->
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.js" integrity="sha512-NI5tuaiyhrV4EkyHBGHJj9uaL6uu7fz/WCoMnEwvHi8WXTKZ9f8P1v517sdTGVpT31/UEHRdLMuNdPon9F3HUg==" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+<!-- end footer scripts -->
+
+</body>
+</html>
