@@ -162,6 +162,13 @@
   .news-card.news-featured {
     border:none;
     margin-bottom: 50px;
+
+    .details {
+      span.date-category {
+        float:unset;
+      }
+    }
+
     .news-title {
       font-size:30px;
       font-weight: bold;
