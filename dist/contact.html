@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./css/style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" />
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
@@ -47,9 +49,9 @@
                                 </div>
                             </li>
                             <li><a href="about-us.html">Şirket</a></li>
-                            <li><a href="economic-calendar.html">Ekonomik Takvim</a></li>
-                            <li><a href="announcements.html">Duyurular</a></li>
-                            <li><a href="contact.html">Destek</a></li>
+                            <li>
+                                <a href="analysis-detail.html">Ekonomik Takvim</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -215,33 +217,55 @@
                                 <p>İletişim bilgilerine ulaşın veta form doldurarak bize mesaj gönderebilirsiniz!</p>
                             </div>
 
-                            <div class="contact-form">
+                            <div class="contact-form form-block-container">
 
+                                <!--
                                 <div class="form-group">
                                     <label for="nameInput">İsim</label>
                                     <input type="text" class="form-control contact-input" id="nameInput" placeholder="İsminizi giriniz">
                                 </div>
+                                --->
 
-                                <div class="form-group">
-                                    <label for="surnameInput">Soyisim</label>
-                                    <input type="text" class="form-control contact-input" id="surnameInput" placeholder="Soyisminizi giriniz">
-                                </div>
+                                <form method="post" action="?" id="siteForm">
+                                    <div class="form-group">
+                                        <label for="surnameInput">İsim & Soyisim</label>
+                                        <input
+                                                type="text"
+                                                class="form-control contact-input js-form-control"
+                                                id="surnameInput"
+                                                placeholder="İsminizi ve soy isminizi giriniz"
+                                                data-required="true"
+                                                data-min="5"
+                                        />
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="emailInput">Email</label>
-                                    <input type="email" class="form-control contact-input" id="emailInput" placeholder="Email adresinizi giriniz">
-                                </div>
+                                    <div class="form-group">
+                                        <label for="emailInput">Email</label>
+                                        <input type="email"
+                                               class="form-control contact-input js-form-control"
+                                               id="emailInput"
+                                               placeholder="Email adresinizi giriniz"
+                                               data-required="true"
+                                               data-validation="email"
+                                        />
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="messageInput">Mesaj</label>
-                                    <textarea name="message" class="form-control contact-input" placeholder="Mesajınızı yazınız" id="messageInput"></textarea>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="messageInput">Mesaj</label>
+                                        <textarea
+                                                name="message"
+                                                class="form-control contact-input"
+                                                placeholder="Mesajınızı yazınız"
+                                                maxlength="500"
+                                                id="messageInput"></textarea>
+                                    </div>
 
-                                <hr />
+                                    <hr />
 
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-primary btn-submit">Gönder</button>
-                                </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-submit">Gönder</button>
+                                    </div>
+                                </form>
 
                             </div>
 
@@ -433,6 +457,9 @@
                                  <li>
                                      <a href="about-us.html">Hakkımızda</a>
                                  </li>
+                                 <li>
+                                     <a href="contact.html">İletişim</a>
+                                 </li>
                              </ul>
                          </div>
 
@@ -479,6 +506,7 @@
                              <ul class="links list-unstyled">
                                  <li><a href="what-is-forex.html">Forex Nedir</a></li>
                                  <li><a href="faq.html">Sıkça Sorulanlar</a></li>
+                                 <li><a href="announcements.html">Duyurular</a></li>
                              </ul>
                          </div>
 
