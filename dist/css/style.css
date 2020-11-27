@@ -1718,6 +1718,12 @@ footer {
     border: 1px solid orange; }
     .page-economic-calendar .calendar-table .degree.degree-warning .fill {
       background: orange; }
+  .page-economic-calendar .calendar-table .date-header {
+    background: rgba(169, 177, 177, 0.1);
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold; }
 
 .page-economic-calendar .economic-calendar-nav {
   margin-top: 30px;
