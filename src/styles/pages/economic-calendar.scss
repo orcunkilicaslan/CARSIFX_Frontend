@@ -71,4 +71,24 @@
 
   }
 
+  .economic-calendar-nav {
+    margin-top:30px;
+    margin-bottom: 9px;
+    a {
+      padding:10px 30px;
+      color:#000;
+      font-weight: bold;
+    }
+    a.active-primary {
+      color:$primary;
+      border-bottom: 2px solid $primary;
+    }
+
+    a.active-secondary {
+      color:$secondary;
+      border-bottom: 2px solid $secondary;
+    }
+
+  }
+
 }
