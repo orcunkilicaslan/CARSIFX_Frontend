@@ -49,15 +49,14 @@
   }
 
 }
-
-@media only screen and (max-width: $x-small) {
+@media only screen and (max-width: $small) {
   .page-platforms-block{
     margin-top: 50px;
     .platform-block {
       .buttons  {
         width:100%;
         a {
-          width:170px;
+          width:140px;
           font-size:smaller;
         }
       }
@@ -66,53 +65,6 @@
 
 }
 
-@media only screen and (max-width: $x-small) {
-  .page-platforms-block{
-    margin-top: 50px;
-    .platform-block {
-      .buttons  {
-        width:100%;
-        a {
-          width:170px;
-          font-size:smaller;
-        }
-      }
-    }
-  }
-
-}
-
-@media only screen and (max-width: $x-small) {
-  .page-platforms-block{
-    margin-top: 50px;
-    .platform-block {
-      .buttons  {
-        width:100%;
-        a {
-          width:170px;
-          font-size:smaller;
-        }
-      }
-    }
-  }
-
-}
-
-@media only screen and (max-width: $x-small) {
-  .page-platforms-block{
-    margin-top: 50px;
-    .platform-block {
-      .buttons  {
-        width:100%;
-        a {
-          width:170px;
-          font-size:smaller;
-        }
-      }
-    }
-  }
-
-}
 
 @media only screen and (max-width: $x-small) {
   .page-platforms-block{
