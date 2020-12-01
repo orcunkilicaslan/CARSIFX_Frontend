@@ -27,12 +27,21 @@
         top: 74px;
         left: 195px;
 
+        @media screen and (max-width:$large) {
+          width:90%;
+          left:78%;
+        }
+
+        @media only screen and(max-width: $small) {
+          width:150px;
+        }
+
         @media screen and (max-width:$x-small) {
           display: block;
           width: 3px;
           height:45px;
-          top:200px;
-          left:172px;
+          top:96%;
+          left:50%;
           background-image:linear-gradient(to left, #5168f2, #69d694) !important;
         }
 
@@ -50,12 +59,21 @@
         top: 74px;
         left: 195px;
 
+        @media screen and (max-width:$large) {
+          width:90%;
+          left:78%;
+        }
+
+        @media only screen and(max-width: $small) {
+          width:150px;
+        }
+
         @media screen and (max-width:$x-small) {
           display: block;
           width: 3px;
           height:45px;
           top:200px;
-          left:172px;
+          left:50%;
           background-image: linear-gradient(to left, #e76a96, #5168f2) !important;
         }
 

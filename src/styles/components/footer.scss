@@ -12,6 +12,14 @@ footer {
       flex-wrap: nowrap;
       border-bottom: 1px solid #828998;
 
+      @media screen and(max-width: $medium) {
+       display: block;
+      }
+
+      @media screen and(max-width: $small) {
+        display: block;
+      }
+
       @media screen and(max-width: $x-small) {
         display: block;
       }
@@ -24,12 +32,26 @@ footer {
         border-right:1px solid $footer-link-color;
        // margin-left:-50px;
 
+        @media screen and(max-width: $medium) {
+          width:100%;
+          text-align: center;
+          border-right: unset;
+        }
+
+        @media screen and(max-width: $small) {
+          width:100%;
+          text-align: center;
+          border-right: unset;
+        }
+
         @media screen and(max-width: $x-small) {
           width: 100%;
           text-align: center;
           border-right:unset;
           border-bottom:1px solid $footer-link-color ;
           margin-bottom: 20px;
+          height:unset;
+          padding:50px 0;
         }
 
       }
@@ -66,6 +88,20 @@ footer {
         &:last-child {
           padding-right: 0;
           margin-right: -60px;
+        }
+
+        @media screen and(max-width: $medium) {
+          display: inline-block;
+          width:20%;
+          vertical-align: top;
+          padding:0;
+        }
+
+        @media screen and(max-width: $small) {
+          display: inline-block;
+          width:20%;
+          vertical-align: top;
+          padding:0;
         }
 
         @media screen and(max-width: $x-small) {
@@ -110,9 +146,13 @@ footer {
       // left: 550px;
       right:0;
 
+      @media screen and (max-width: $large) {
+        right:-30px;
+      }
+
       @media screen and (max-width:$x-small) {
         display: block;
-        bottom:-350px;
+        bottom:-400px;
       }
 
     }
@@ -173,6 +213,13 @@ footer {
         border-right:1px solid $footer-link-color;
         margin-right: 10px;
         text-align: center;
+
+        @media screen and (max-width:$x-small) {
+          width: 30px;
+          margin-right: 5px;
+          padding:5px;
+        }
+
       }
 
       .contact-icon {
@@ -197,6 +244,16 @@ footer {
         &:last-child {
           padding-right:0;
         }
+      }
+
+      @media screen and (max-width:$medium) {
+        text-align: center;
+        margin:30px 0;
+      }
+
+      @media screen and (max-width:$small) {
+        text-align: center;
+        margin:30px 0;
       }
 
       @media screen and (max-width:$x-small) {
