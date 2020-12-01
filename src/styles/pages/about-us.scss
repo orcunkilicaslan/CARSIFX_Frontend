@@ -9,8 +9,22 @@
       &:first-child, &:last-child {
         margin-top: 180px;
       }
+
+      @media screen and (max-width:$medium) {
+        display: inline-block;
+        width:30%;
+      }
+
     }
 
+  }
+
+  @media screen and (max-width:$large) {
+   margin-top: 230px;
+  }
+
+  @media screen and (max-width:$medium) {
+    margin-top: unset;
   }
 
 }

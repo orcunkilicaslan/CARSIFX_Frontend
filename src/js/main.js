@@ -71,20 +71,6 @@ $(document).ready(function(){
 
 /**
  * ----------------------------
- *   Init carousel on mobile  *
- * ----------------------------
- */
-
-if( isMobile() ) {
-    new Glider(document.querySelector('.js-card-carousel'), {
-        slidesToShow: 1,
-        draggable: true,
-        dots: '.dots',
-    });
-}
-
-/**
- * ----------------------------
  *   Toggle Login Popup &     *
  *   Forgot Pw Navigation     *
  * ----------------------------
@@ -244,3 +230,62 @@ $(document).ready(function(){
     }
 
 });
+
+
+/// CHANGES START FROM HERE
+
+function isTablet() {
+    return window.innerWidth <breakPoints.medium;
+}
+
+/**
+ * ----------------------------
+ *   Init carousel on mobile  *
+ * ----------------------------
+ */
+
+if( isMobile() || isTablet() ) {
+
+    let slider = document.querySelector('.js-card-carousel');
+
+    if( slider !== null ) {
+        new Glider(slider, {
+            slidesToShow: 1,
+            draggable: true,
+            dots: '.dots',
+        });
+    }
+
+}
+
+/**
+ * ----------------------------
+ *   Init Home Slider         *
+ * ----------------------------
+ */
+
+let homeSlider = $(".owl-carousel");
+
+$(document).ready(function(){
+    homeSlider.owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            },
+            autoHeight: true,
+
+        }
+    });
+});
+
+// CHANGES END
