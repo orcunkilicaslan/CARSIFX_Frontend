@@ -150,6 +150,10 @@ footer {
         right:-30px;
       }
 
+      @media screen and (max-width: $small) {
+        right:50px;
+      }
+
       @media screen and (max-width:$x-small) {
         display: block;
         bottom:-400px;
